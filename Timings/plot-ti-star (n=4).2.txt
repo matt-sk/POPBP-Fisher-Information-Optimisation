@@ -1,0 +1,1912 @@
+Wed Jan  2 13:24:18 AEDT 2019
+
+Linux rcg107 3.10.0-862.6.3.el7.x86_64 #1 SMP Fri Jun 15 17:57:37 EDT 2018 x86_64 x86_64 x86_64 GNU/Linux
+
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 85
+model name	: Intel(R) Xeon(R) Gold 6150 CPU @ 2.70GHz
+stepping	: 4
+microcode	: 0x200004d
+cpu MHz		: 2700.000
+cache size	: 25344 KB
+physical id	: 0
+siblings	: 18
+core id		: 0
+cpu cores	: 18
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 intel_ppin intel_pt ssbd mba ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke spec_ctrl intel_stibp
+bogomips	: 5400.00
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 85
+model name	: Intel(R) Xeon(R) Gold 6150 CPU @ 2.70GHz
+stepping	: 4
+microcode	: 0x200004d
+cpu MHz		: 2700.000
+cache size	: 25344 KB
+physical id	: 1
+siblings	: 18
+core id		: 0
+cpu cores	: 18
+apicid		: 64
+initial apicid	: 64
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 intel_ppin intel_pt ssbd mba ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke spec_ctrl intel_stibp
+bogomips	: 5404.53
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+processor	: 2
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 85
+model name	: Intel(R) Xeon(R) Gold 6150 CPU @ 2.70GHz
+stepping	: 4
+microcode	: 0x200004d
+cpu MHz		: 2700.000
+cache size	: 25344 KB
+physical id	: 0
+siblings	: 18
+core id		: 4
+cpu cores	: 18
+apicid		: 8
+initial apicid	: 8
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 intel_ppin intel_pt ssbd mba ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke spec_ctrl intel_stibp
+bogomips	: 5400.00
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+processor	: 3
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 85
+model name	: Intel(R) Xeon(R) Gold 6150 CPU @ 2.70GHz
+stepping	: 4
+microcode	: 0x200004d
+cpu MHz		: 2700.000
+cache size	: 25344 KB
+physical id	: 1
+siblings	: 18
+core id		: 4
+cpu cores	: 18
+apicid		: 72
+initial apicid	: 72
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 intel_ppin intel_pt ssbd mba ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke spec_ctrl intel_stibp
+bogomips	: 5404.53
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+processor	: 4
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 85
+model name	: Intel(R) Xeon(R) Gold 6150 CPU @ 2.70GHz
+stepping	: 4
+microcode	: 0x200004d
+cpu MHz		: 2700.000
+cache size	: 25344 KB
+physical id	: 0
+siblings	: 18
+core id		: 1
+cpu cores	: 18
+apicid		: 2
+initial apicid	: 2
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 intel_ppin intel_pt ssbd mba ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke spec_ctrl intel_stibp
+bogomips	: 5400.00
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+processor	: 5
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 85
+model name	: Intel(R) Xeon(R) Gold 6150 CPU @ 2.70GHz
+stepping	: 4
+microcode	: 0x200004d
+cpu MHz		: 2700.000
+cache size	: 25344 KB
+physical id	: 1
+siblings	: 18
+core id		: 1
+cpu cores	: 18
+apicid		: 66
+initial apicid	: 66
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 intel_ppin intel_pt ssbd mba ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke spec_ctrl intel_stibp
+bogomips	: 5404.53
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+processor	: 6
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 85
+model name	: Intel(R) Xeon(R) Gold 6150 CPU @ 2.70GHz
+stepping	: 4
+microcode	: 0x200004d
+cpu MHz		: 2700.000
+cache size	: 25344 KB
+physical id	: 0
+siblings	: 18
+core id		: 3
+cpu cores	: 18
+apicid		: 6
+initial apicid	: 6
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 intel_ppin intel_pt ssbd mba ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke spec_ctrl intel_stibp
+bogomips	: 5400.00
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+processor	: 7
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 85
+model name	: Intel(R) Xeon(R) Gold 6150 CPU @ 2.70GHz
+stepping	: 4
+microcode	: 0x200004d
+cpu MHz		: 2700.000
+cache size	: 25344 KB
+physical id	: 1
+siblings	: 18
+core id		: 3
+cpu cores	: 18
+apicid		: 70
+initial apicid	: 70
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 intel_ppin intel_pt ssbd mba ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke spec_ctrl intel_stibp
+bogomips	: 5404.53
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+processor	: 8
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 85
+model name	: Intel(R) Xeon(R) Gold 6150 CPU @ 2.70GHz
+stepping	: 4
+microcode	: 0x200004d
+cpu MHz		: 2700.000
+cache size	: 25344 KB
+physical id	: 0
+siblings	: 18
+core id		: 2
+cpu cores	: 18
+apicid		: 4
+initial apicid	: 4
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 intel_ppin intel_pt ssbd mba ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke spec_ctrl intel_stibp
+bogomips	: 5400.00
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+processor	: 9
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 85
+model name	: Intel(R) Xeon(R) Gold 6150 CPU @ 2.70GHz
+stepping	: 4
+microcode	: 0x200004d
+cpu MHz		: 2700.000
+cache size	: 25344 KB
+physical id	: 1
+siblings	: 18
+core id		: 2
+cpu cores	: 18
+apicid		: 68
+initial apicid	: 68
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 intel_ppin intel_pt ssbd mba ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke spec_ctrl intel_stibp
+bogomips	: 5404.53
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+processor	: 10
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 85
+model name	: Intel(R) Xeon(R) Gold 6150 CPU @ 2.70GHz
+stepping	: 4
+microcode	: 0x200004d
+cpu MHz		: 2700.000
+cache size	: 25344 KB
+physical id	: 0
+siblings	: 18
+core id		: 11
+cpu cores	: 18
+apicid		: 22
+initial apicid	: 22
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 intel_ppin intel_pt ssbd mba ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke spec_ctrl intel_stibp
+bogomips	: 5400.00
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+processor	: 11
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 85
+model name	: Intel(R) Xeon(R) Gold 6150 CPU @ 2.70GHz
+stepping	: 4
+microcode	: 0x200004d
+cpu MHz		: 2700.000
+cache size	: 25344 KB
+physical id	: 1
+siblings	: 18
+core id		: 11
+cpu cores	: 18
+apicid		: 86
+initial apicid	: 86
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 intel_ppin intel_pt ssbd mba ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke spec_ctrl intel_stibp
+bogomips	: 5404.53
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+processor	: 12
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 85
+model name	: Intel(R) Xeon(R) Gold 6150 CPU @ 2.70GHz
+stepping	: 4
+microcode	: 0x200004d
+cpu MHz		: 2700.000
+cache size	: 25344 KB
+physical id	: 0
+siblings	: 18
+core id		: 8
+cpu cores	: 18
+apicid		: 16
+initial apicid	: 16
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 intel_ppin intel_pt ssbd mba ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke spec_ctrl intel_stibp
+bogomips	: 5400.00
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+processor	: 13
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 85
+model name	: Intel(R) Xeon(R) Gold 6150 CPU @ 2.70GHz
+stepping	: 4
+microcode	: 0x200004d
+cpu MHz		: 2700.000
+cache size	: 25344 KB
+physical id	: 1
+siblings	: 18
+core id		: 8
+cpu cores	: 18
+apicid		: 80
+initial apicid	: 80
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 intel_ppin intel_pt ssbd mba ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke spec_ctrl intel_stibp
+bogomips	: 5404.53
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+processor	: 14
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 85
+model name	: Intel(R) Xeon(R) Gold 6150 CPU @ 2.70GHz
+stepping	: 4
+microcode	: 0x200004d
+cpu MHz		: 2700.000
+cache size	: 25344 KB
+physical id	: 0
+siblings	: 18
+core id		: 10
+cpu cores	: 18
+apicid		: 20
+initial apicid	: 20
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 intel_ppin intel_pt ssbd mba ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke spec_ctrl intel_stibp
+bogomips	: 5400.00
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+processor	: 15
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 85
+model name	: Intel(R) Xeon(R) Gold 6150 CPU @ 2.70GHz
+stepping	: 4
+microcode	: 0x200004d
+cpu MHz		: 2700.000
+cache size	: 25344 KB
+physical id	: 1
+siblings	: 18
+core id		: 10
+cpu cores	: 18
+apicid		: 84
+initial apicid	: 84
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 intel_ppin intel_pt ssbd mba ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke spec_ctrl intel_stibp
+bogomips	: 5404.53
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+processor	: 16
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 85
+model name	: Intel(R) Xeon(R) Gold 6150 CPU @ 2.70GHz
+stepping	: 4
+microcode	: 0x200004d
+cpu MHz		: 2700.000
+cache size	: 25344 KB
+physical id	: 0
+siblings	: 18
+core id		: 9
+cpu cores	: 18
+apicid		: 18
+initial apicid	: 18
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 intel_ppin intel_pt ssbd mba ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke spec_ctrl intel_stibp
+bogomips	: 5400.00
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+processor	: 17
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 85
+model name	: Intel(R) Xeon(R) Gold 6150 CPU @ 2.70GHz
+stepping	: 4
+microcode	: 0x200004d
+cpu MHz		: 2700.000
+cache size	: 25344 KB
+physical id	: 1
+siblings	: 18
+core id		: 9
+cpu cores	: 18
+apicid		: 82
+initial apicid	: 82
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 intel_ppin intel_pt ssbd mba ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke spec_ctrl intel_stibp
+bogomips	: 5404.53
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+processor	: 18
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 85
+model name	: Intel(R) Xeon(R) Gold 6150 CPU @ 2.70GHz
+stepping	: 4
+microcode	: 0x200004d
+cpu MHz		: 2700.000
+cache size	: 25344 KB
+physical id	: 0
+siblings	: 18
+core id		: 20
+cpu cores	: 18
+apicid		: 40
+initial apicid	: 40
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 intel_ppin intel_pt ssbd mba ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke spec_ctrl intel_stibp
+bogomips	: 5400.00
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+processor	: 19
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 85
+model name	: Intel(R) Xeon(R) Gold 6150 CPU @ 2.70GHz
+stepping	: 4
+microcode	: 0x200004d
+cpu MHz		: 2700.000
+cache size	: 25344 KB
+physical id	: 1
+siblings	: 18
+core id		: 20
+cpu cores	: 18
+apicid		: 104
+initial apicid	: 104
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 intel_ppin intel_pt ssbd mba ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke spec_ctrl intel_stibp
+bogomips	: 5404.53
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+processor	: 20
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 85
+model name	: Intel(R) Xeon(R) Gold 6150 CPU @ 2.70GHz
+stepping	: 4
+microcode	: 0x200004d
+cpu MHz		: 2700.000
+cache size	: 25344 KB
+physical id	: 0
+siblings	: 18
+core id		: 16
+cpu cores	: 18
+apicid		: 32
+initial apicid	: 32
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 intel_ppin intel_pt ssbd mba ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke spec_ctrl intel_stibp
+bogomips	: 5400.00
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+processor	: 21
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 85
+model name	: Intel(R) Xeon(R) Gold 6150 CPU @ 2.70GHz
+stepping	: 4
+microcode	: 0x200004d
+cpu MHz		: 2700.000
+cache size	: 25344 KB
+physical id	: 1
+siblings	: 18
+core id		: 16
+cpu cores	: 18
+apicid		: 96
+initial apicid	: 96
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 intel_ppin intel_pt ssbd mba ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke spec_ctrl intel_stibp
+bogomips	: 5404.53
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+processor	: 22
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 85
+model name	: Intel(R) Xeon(R) Gold 6150 CPU @ 2.70GHz
+stepping	: 4
+microcode	: 0x200004d
+cpu MHz		: 2700.000
+cache size	: 25344 KB
+physical id	: 0
+siblings	: 18
+core id		: 19
+cpu cores	: 18
+apicid		: 38
+initial apicid	: 38
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 intel_ppin intel_pt ssbd mba ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke spec_ctrl intel_stibp
+bogomips	: 5400.00
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+processor	: 23
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 85
+model name	: Intel(R) Xeon(R) Gold 6150 CPU @ 2.70GHz
+stepping	: 4
+microcode	: 0x200004d
+cpu MHz		: 2700.000
+cache size	: 25344 KB
+physical id	: 1
+siblings	: 18
+core id		: 19
+cpu cores	: 18
+apicid		: 102
+initial apicid	: 102
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 intel_ppin intel_pt ssbd mba ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke spec_ctrl intel_stibp
+bogomips	: 5404.53
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+processor	: 24
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 85
+model name	: Intel(R) Xeon(R) Gold 6150 CPU @ 2.70GHz
+stepping	: 4
+microcode	: 0x200004d
+cpu MHz		: 2700.000
+cache size	: 25344 KB
+physical id	: 0
+siblings	: 18
+core id		: 17
+cpu cores	: 18
+apicid		: 34
+initial apicid	: 34
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 intel_ppin intel_pt ssbd mba ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke spec_ctrl intel_stibp
+bogomips	: 5400.00
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+processor	: 25
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 85
+model name	: Intel(R) Xeon(R) Gold 6150 CPU @ 2.70GHz
+stepping	: 4
+microcode	: 0x200004d
+cpu MHz		: 2700.000
+cache size	: 25344 KB
+physical id	: 1
+siblings	: 18
+core id		: 17
+cpu cores	: 18
+apicid		: 98
+initial apicid	: 98
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 intel_ppin intel_pt ssbd mba ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke spec_ctrl intel_stibp
+bogomips	: 5404.53
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+processor	: 26
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 85
+model name	: Intel(R) Xeon(R) Gold 6150 CPU @ 2.70GHz
+stepping	: 4
+microcode	: 0x200004d
+cpu MHz		: 2700.000
+cache size	: 25344 KB
+physical id	: 0
+siblings	: 18
+core id		: 18
+cpu cores	: 18
+apicid		: 36
+initial apicid	: 36
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 intel_ppin intel_pt ssbd mba ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke spec_ctrl intel_stibp
+bogomips	: 5400.00
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+processor	: 27
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 85
+model name	: Intel(R) Xeon(R) Gold 6150 CPU @ 2.70GHz
+stepping	: 4
+microcode	: 0x200004d
+cpu MHz		: 2700.000
+cache size	: 25344 KB
+physical id	: 1
+siblings	: 18
+core id		: 18
+cpu cores	: 18
+apicid		: 100
+initial apicid	: 100
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 intel_ppin intel_pt ssbd mba ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke spec_ctrl intel_stibp
+bogomips	: 5404.53
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+processor	: 28
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 85
+model name	: Intel(R) Xeon(R) Gold 6150 CPU @ 2.70GHz
+stepping	: 4
+microcode	: 0x200004d
+cpu MHz		: 2700.000
+cache size	: 25344 KB
+physical id	: 0
+siblings	: 18
+core id		: 24
+cpu cores	: 18
+apicid		: 48
+initial apicid	: 48
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 intel_ppin intel_pt ssbd mba ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke spec_ctrl intel_stibp
+bogomips	: 5400.00
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+processor	: 29
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 85
+model name	: Intel(R) Xeon(R) Gold 6150 CPU @ 2.70GHz
+stepping	: 4
+microcode	: 0x200004d
+cpu MHz		: 2700.000
+cache size	: 25344 KB
+physical id	: 1
+siblings	: 18
+core id		: 24
+cpu cores	: 18
+apicid		: 112
+initial apicid	: 112
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 intel_ppin intel_pt ssbd mba ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke spec_ctrl intel_stibp
+bogomips	: 5404.53
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+processor	: 30
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 85
+model name	: Intel(R) Xeon(R) Gold 6150 CPU @ 2.70GHz
+stepping	: 4
+microcode	: 0x200004d
+cpu MHz		: 2700.000
+cache size	: 25344 KB
+physical id	: 0
+siblings	: 18
+core id		: 27
+cpu cores	: 18
+apicid		: 54
+initial apicid	: 54
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 intel_ppin intel_pt ssbd mba ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke spec_ctrl intel_stibp
+bogomips	: 5400.00
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+processor	: 31
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 85
+model name	: Intel(R) Xeon(R) Gold 6150 CPU @ 2.70GHz
+stepping	: 4
+microcode	: 0x200004d
+cpu MHz		: 2700.000
+cache size	: 25344 KB
+physical id	: 1
+siblings	: 18
+core id		: 27
+cpu cores	: 18
+apicid		: 118
+initial apicid	: 118
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 intel_ppin intel_pt ssbd mba ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke spec_ctrl intel_stibp
+bogomips	: 5404.53
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+processor	: 32
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 85
+model name	: Intel(R) Xeon(R) Gold 6150 CPU @ 2.70GHz
+stepping	: 4
+microcode	: 0x200004d
+cpu MHz		: 2700.000
+cache size	: 25344 KB
+physical id	: 0
+siblings	: 18
+core id		: 25
+cpu cores	: 18
+apicid		: 50
+initial apicid	: 50
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 intel_ppin intel_pt ssbd mba ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke spec_ctrl intel_stibp
+bogomips	: 5400.00
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+processor	: 33
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 85
+model name	: Intel(R) Xeon(R) Gold 6150 CPU @ 2.70GHz
+stepping	: 4
+microcode	: 0x200004d
+cpu MHz		: 2700.000
+cache size	: 25344 KB
+physical id	: 1
+siblings	: 18
+core id		: 25
+cpu cores	: 18
+apicid		: 114
+initial apicid	: 114
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 intel_ppin intel_pt ssbd mba ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke spec_ctrl intel_stibp
+bogomips	: 5404.53
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+processor	: 34
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 85
+model name	: Intel(R) Xeon(R) Gold 6150 CPU @ 2.70GHz
+stepping	: 4
+microcode	: 0x200004d
+cpu MHz		: 2700.000
+cache size	: 25344 KB
+physical id	: 0
+siblings	: 18
+core id		: 26
+cpu cores	: 18
+apicid		: 52
+initial apicid	: 52
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 intel_ppin intel_pt ssbd mba ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke spec_ctrl intel_stibp
+bogomips	: 5400.00
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+processor	: 35
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 85
+model name	: Intel(R) Xeon(R) Gold 6150 CPU @ 2.70GHz
+stepping	: 4
+microcode	: 0x200004d
+cpu MHz		: 2700.000
+cache size	: 25344 KB
+physical id	: 1
+siblings	: 18
+core id		: 26
+cpu cores	: 18
+apicid		: 116
+initial apicid	: 116
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 intel_ppin intel_pt ssbd mba ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke spec_ctrl intel_stibp
+bogomips	: 5404.53
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+-= =-=-=-=-=-=-=-=-=-=-= =-
+
+                           LIBRARY_FOLDER := "../lib"
+
+                     DATA_FOLDER := "Optimisation/n=4/data"
+
+                                 LAMBDA := 0.8
+
+             DropValuesFile := "Optimisation/n=4/data/DropValues.m"
+
+          DataFileName := "Optimisation/n=4/data/plotData lambda=.8.m"
+
+            SnapshotFileName := ".snapshot,n=4,lambda=.8-GENERAL.m"
+
+          ID_String := "n=4, lambda=.8, timestamp=2019-01-02 13:24:21"
+
+                                 delta := 0.005
+
+F := proc(P, L, F)
+local St, Fin, Opt;
+option remember;
+    userinfo(5, Fisher, `p=` || P);
+    St := time[real]();
+    Opt := opt[N](P, L, F)[2];
+    Fin := time[real]();
+    userinfo(5, Fisher, Fin - St, seconds);
+    return Opt
+end proc
+
+Snapshot_F := proc()
+local Opt;
+global F;
+    Opt := F(args); save F, SnapshotFileName; return Opt
+end proc
+
+DV := [0.769572257995605 .. 0.769573211669922,
+
+    0.931312561035156 .. 0.931313514709473,
+
+    0.995998382568359 .. 0.995999336242676, 1.0 .. 1.0]
+
+                        2                                       2
+           (t[1] - t[0])                           (t[2] - t[1])
+------------------------------------- + -------------------------------------
+exp(-lambda t[0]) - exp(-lambda t[1])   exp(-lambda t[1]) - exp(-lambda t[2])
+
+                               2
+                  (t[3] - t[2])
+     + -------------------------------------
+       exp(-lambda t[2]) - exp(-lambda t[3])
+
+                               2
+                  (t[4] - t[3])
+     + -------------------------------------
+       exp(-lambda t[3]) - exp(-lambda t[4])
+
+           2                               2
+       t[1]                   (t[2] - t[1])
+------------------- + -------------------------------
+1. - exp(-0.8 t[1])   exp(-0.8 t[1]) - exp(-0.8 t[2])
+
+                            2                               2
+               (t[3] - t[2])                      (1 - t[3])
+     + ------------------------------- + -----------------------------
+       exp(-0.8 t[2]) - exp(-0.8 t[3])   exp(-0.8 t[3]) - 0.4493289641
+
+                                       2
+                                   t[1]
+FI[p = 1] := (t, lambda) -> -------------------
+                            1. - exp(-0.8 t[1])
+
+                            2                                 2
+               (t[2] - t[1])                     (t[3] - t[2])
+     + ------------------------------- + -------------------------------
+       exp(-0.8 t[1]) - exp(-0.8 t[2])   exp(-0.8 t[2]) - exp(-0.8 t[3])
+
+                          2
+                (1 - t[3])
+     + -----------------------------
+       exp(-0.8 t[3]) - 0.4493289641
+
+                                     [0.276121262188848]
+                                     [                 ]
+                       ti*[p = 1] := [0.533274243957045]
+                                     [                 ]
+                                     [0.773900979493893]
+
+                                         [0.276121262188848]
+                                         [                 ]
+                   F(1.0, 0.8, FI[4]) := [0.533274243957045]
+                                         [                 ]
+                                         [0.773900979493893]
+
+                             infolevel[Fisher] := 5
+
+                                printlevel := 3
+
+pl[0] := PLOT(CURVES(Matrix(2, 2, [[...],[...]], datatype = float[8]), COLOUR(
+
+    RGB, 0.47058824, 0., 0.054901961, _ATTRIBUTE("source" = "mathdefault"))),
+
+    AXESLABELS("", ""), VIEW(DEFAULT, DEFAULT))
+
+                           StPt := 0.769573211669922
+
+                           EndPt := 0.931312561035156
+
+                                  NumPts := 33
+
+F:   p=.769573211669922
+F:   1528.925   seconds
+F:   p=.774861397969317
+F:   1564.866   seconds
+F:   p=.779462620592643
+F:   1499.915   seconds
+F:   p=.784637176659424
+F:   1760.730   seconds
+F:   p=.789846033042743
+F:   1881.863   seconds
+F:   p=.795030132640921
+F:   1945.693   seconds
+F:   p=.799836456579372
+F:   2183.324   seconds
+F:   p=.80481312662449
+F:   1962.349   seconds
+F:   p=.809960005904351
+F:   1816.640   seconds
+F:   p=.815090379077088
+F:   1780.942   seconds
+F:   p=.820367598488269
+F:   1722.613   seconds
+F:   p=.825015776218088
+F:   2078.775   seconds
+F:   p=.830248523423963
+F:   1997.557   seconds
+F:   p=.835502756792617
+F:   2156.255   seconds
+F:   p=.840566184229083
+F:   2238.987   seconds
+F:   p=.845164261426412
+F:   1975.196   seconds
+F:   p=.850631819949584
+F:   2187.112   seconds
+F:   p=.855263559199543
+F:   2108.221   seconds
+F:   p=.860651373046294
+F:   2049.542   seconds
+F:   p=.865420501230593
+F:   2271.406   seconds
+F:   p=.870652990714923
+F:   2180.444   seconds
+F:   p=.875635558079981
+F:   2090.251   seconds
+F:   p=.880834344419777
+F:   2283.920   seconds
+F:   p=.885608453165165
+F:   2092.833   seconds
+F:   p=.890757974406755
+F:   2282.158   seconds
+F:   p=.896106879730188
+F:   2220.304   seconds
+F:   p=.900763117538308
+F:   2488.199   seconds
+F:   p=.905791981932881
+F:   2340.022   seconds
+F:   p=.91098729092721
+F:   2373.898   seconds
+F:   p=.916069887205927
+F:   2258.401   seconds
+F:   p=.920987560447818
+F:   2356.652   seconds
+F:   p=.926447798142602
+F:   2461.450   seconds
+F:   p=.931312561035156
+F:   2210.617   seconds
+pl[1] := PLOT(CURVES(Matrix(33, 2, [[...],[...],[...],[...],[...],[...],[...\
+    ],[...],[...],[...],[...],[...],[...],[...],[...],[...],[...],[...],[...\
+    ],[...],[...],[...],[...],[...],[...],[...],[...],[...],[...],[...],[...\
+
+    ],[...],[...]], datatype = float[8]), COLOUR(RGB, 0.47058824, 0.,
+
+    0.054901961, _ATTRIBUTE("source" = "mathdefault"))), AXESLABELS("", ""),
+
+    VIEW(0.769573211669922 .. 0.931312561035156, DEFAULT,
+
+    _ATTRIBUTE("source" = "mathdefault")))
+
+                           StPt := 0.931313514709473
+
+                           EndPt := 0.995998382568359
+
+                                  NumPts := 13
+
+F:   p=.931313514709473
+F:   2447.847   seconds
+F:   p=.936953298857355
+F:   2771.624   seconds
+F:   p=.941860444888666
+F:   2623.973   seconds
+F:   p=.947379043823256
+F:   2537.828   seconds
+F:   p=.952934223613839
+F:   2717.082   seconds
+F:   p=.958463000604579
+F:   2543.034   seconds
+F:   p=.963588884607713
+F:   2861.082   seconds
+F:   p=.968896440590169
+F:   2771.130   seconds
+F:   p=.974385522579763
+F:   3013.077   seconds
+F:   p=.979857001013801
+F:   2986.720   seconds
+F:   p=.985485089113398
+F:   3226.512   seconds
+F:   p=.990442312174954
+F:   3211.004   seconds
+F:   p=.995998382568359
+F:   2825.229   seconds
+F:   p=.934133406783414
+F:   2505.870   seconds
+F:   p=.93940687187301
+F:   2584.221   seconds
+F:   p=.944619744355961
+F:   2868.562   seconds
+F:   p=.950156633718548
+F:   3185.802   seconds
+F:   p=.955698612109209
+F:   2987.953   seconds
+F:   p=.961025942606146
+F:   2696.769   seconds
+F:   p=.966242662598941
+F:   2831.622   seconds
+F:   p=.971640981584966
+F:   3076.307   seconds
+F:   p=.977121261796782
+F:   3108.503   seconds
+F:   p=.982671045063599
+F:   3265.388   seconds
+F:   p=.987963700644176
+F:   2982.467   seconds
+F:   p=.993220347371657
+F:   3054.599   seconds
+pl[2] := PLOT(CURVES(Matrix(25, 2, [[...],[...],[...],[...],[...],[...],[...\
+    ],[...],[...],[...],[...],[...],[...],[...],[...],[...],[...],[...],[...\
+
+    ],[...],[...],[...],[...],[...],[...]], datatype = float[8]), COLOUR(RGB,
+
+    0.47058824, 0., 0.054901961, _ATTRIBUTE("source" = "mathdefault"))),
+
+    AXESLABELS("", ""), VIEW(0.931313514709473 .. 0.995998382568359, DEFAULT,
+
+    _ATTRIBUTE("source" = "mathdefault")))
+
+                           StPt := 0.995999336242676
+
+                                  EndPt := 1.0
+
+                                  NumPts := 3
+
+F:   p=.995999336242676
+F:   3020.663   seconds
+F:   p=.998092210275173
+F:   3047.122   seconds
+F:   p=.997045773258924
+F:   2765.358   seconds
+F:   p=.9965225547508
+F:   2806.663   seconds
+F:   p=.996260945496738
+F:   2794.997   seconds
+F:   p=.996130140869707
+F:   3139.527   seconds
+F:   p=.996391750123769
+F:   2933.492   seconds
+F:   p=.996784164004862
+F:   2832.727   seconds
+F:   p=.996653359377831
+F:   2889.581   seconds
+F:   p=.996914968631893
+F:   2938.142   seconds
+F:   p=.997568991767049
+F:   2894.339   seconds
+F:   p=.997307382512987
+F:   2936.469   seconds
+F:   p=.997830601021111
+F:   2773.138   seconds
+F:   p=.999046105137587
+F:   2728.845   seconds
+F:   p=.99856915770638
+F:   2659.709   seconds
+F:   p=.998330683990776
+F:   2754.847   seconds
+F:   p=.998807631421983
+F:   2756.253   seconds
+F:   p=.999523052568793
+F:   2689.455   seconds
+F:   p=.99928457885319
+F:   2663.720   seconds
+F:   p=.999761526284397
+F:   2571.763   seconds
+pl[3] := PLOT(CURVES(Matrix(21, 2, [[...],[...],[...],[...],[...],[...],[...\
+    ],[...],[...],[...],[...],[...],[...],[...],[...],[...],[...],[...],[...\
+
+    ],[...],[...]], datatype = float[8]), COLOUR(RGB, 0.47058824, 0.,
+
+    0.054901961, _ATTRIBUTE("source" = "mathdefault"))), AXESLABELS("", ""),
+
+    VIEW(0.995999336242676 .. 1.0, DEFAULT,
+
+    _ATTRIBUTE("source" = "mathdefault")))
+
+                 [       0.            1.]      [ 33 x 2 Matrix        ]
+pl := table([0 = [                       ], 1 = [ Data Type: float[8]  ],
+                 [0.769572257995605    1.]      [ Storage: rectangular ]
+                                                [ Order: Fortran_order ]
+
+        [0.931313514709473    0.374166455184844]
+        [                                      ]
+        [0.934133406783414    0.373841475090982]
+        [                                      ]
+        [0.936953298857355    0.373507988461366]
+        [                                      ]
+        [0.939406871873010    0.373212589291535]
+        [                                      ]
+        [0.941860444888666    0.372907573843253]
+        [                                      ]
+        [0.944619744355961    0.372554258427628]
+        [                                      ]
+        [0.947379043823256    0.372191889362430]
+        [                                      ]
+        [0.950156633718548    0.371810273595839]
+        [                                      ]
+        [0.952934223613839    0.371420930089535]
+        [                                      ]
+        [0.955698612109209    0.371014543277646]
+        [                                      ]
+        [0.958463000604579    0.370601281468482]
+        [                                      ]
+        [0.961025942606146    0.370204881742755]
+        [                                      ]
+    2 = [0.963588884607713    0.369799865098854],
+        [                                      ]
+        [0.966242662598941    0.369362717819202]
+        [                                      ]
+        [0.968896440590169    0.368921342923838]
+        [                                      ]
+        [0.971640981584966    0.368448417525835]
+        [                                      ]
+        [0.974385522579763    0.367972971712287]
+        [                                      ]
+        [0.977121261796782    0.367490436119332]
+        [                                      ]
+        [0.979857001013801    0.367005680837959]
+        [                                      ]
+        [0.982671045063599    0.366505711590567]
+        [                                      ]
+        [0.985485089113398    0.366008179561099]
+        [                                      ]
+        [0.987963700644176    0.365585371165082]
+        [                                      ]
+        [0.990442312174954    0.365173530497023]
+        [                                      ]
+        [0.993220347371657    0.364736024002541]
+        [                                      ]
+        [0.995998382568359    0.364334771379763]
+
+        [0.995999336242676    0.302177510150290]
+        [                                      ]
+        [0.996130140869707    0.300502564318441]
+        [                                      ]
+        [0.996260945496738    0.298997637020170]
+        [                                      ]
+        [0.996391750123769    0.297603908057942]
+        [                                      ]
+        [0.996522554750800    0.296328522215149]
+        [                                      ]
+        [0.996653359377831    0.295121288981713]
+        [                                      ]
+        [0.996784164004862    0.293993322732443]
+        [                                      ]
+        [0.996914968631893    0.292921633943124]
+        [                                      ]
+        [0.997045773258924    0.291908651220196]
+        [                                      ]
+        [0.997307382512987    0.290020085137881]
+        [                                      ]
+    3 = [0.997568991767049    0.288283820513085]
+        [                                      ]
+        [0.997830601021111    0.286672694103681]
+        [                                      ]
+        [0.998092210275173    0.285150354864978]
+        [                                      ]
+        [0.998330683990776    0.283838396770594]
+        [                                      ]
+        [0.998569157706380    0.282605965269693]
+        [                                      ]
+        [0.998807631421983    0.281415145721135]
+        [                                      ]
+        [0.999046105137587    0.280277754573150]
+        [                                      ]
+        [0.999284578853190    0.279179453224630]
+        [                                      ]
+        [0.999523052568793    0.278126368113506]
+        [                                      ]
+        [0.999761526284397    0.277109195393953]
+        [                                      ]
+        [       1.            0.276121262188848]
+
+    ])
+
+                            dv := 0.769572734832764
+
+                           y := 1., 0.433725252163040
+
+sep[1] := PLOT(CURVES(Matrix(2, 2, [[...],[...]], datatype = float[8]), COLOUR(
+
+    RGB, 0.47058824, 0., 0.054901961, _ATTRIBUTE("source" = "mathdefault"))),
+
+    AXESLABELS("", ""), VIEW(DEFAULT, DEFAULT))
+
+                            dv := 0.931313037872314
+
+                   y := 0.501046499865094, 0.374166455184844
+
+sep[2] := PLOT(CURVES(Matrix(2, 2, [[...],[...]], datatype = float[8]), COLOUR(
+
+    RGB, 0.47058824, 0., 0.054901961, _ATTRIBUTE("source" = "mathdefault"))),
+
+    AXESLABELS("", ""), VIEW(DEFAULT, DEFAULT))
+
+                            dv := 0.995998859405518
+
+                   y := 0.364334771379763, 0.302177510150290
+
+sep[3] := PLOT(CURVES(Matrix(2, 2, [[...],[...]], datatype = float[8]), COLOUR(
+
+    RGB, 0.47058824, 0., 0.054901961, _ATTRIBUTE("source" = "mathdefault"))),
+
+    AXESLABELS("", ""), VIEW(DEFAULT, DEFAULT))
+
+                  [0.769572734832764           1.        ]
+sep := table([1 = [                                      ],
+                  [0.769572734832764    0.433725252163040]
+
+        [0.931313037872314    0.501046499865094]
+    2 = [                                      ],
+        [0.931313037872314    0.374166455184844]
+
+        [0.995998859405518    0.364334771379763]
+    3 = [                                      ]
+        [0.995998859405518    0.302177510150290]
+
+    ])
+
+                        [       0.            1.]  [ 33 x 2 Matrix        ]
+plotData[t1*][data] := [[                       ], [ Data Type: float[8]  ],
+                        [0.769572257995605    1.]  [ Storage: rectangular ]
+                                                   [ Order: Fortran_order ]
+
+    [0.931313514709473    0.374166455184844]
+    [                                      ]
+    [0.934133406783414    0.373841475090982]
+    [                                      ]
+    [0.936953298857355    0.373507988461366]
+    [                                      ]
+    [0.939406871873010    0.373212589291535]
+    [                                      ]
+    [0.941860444888666    0.372907573843253]
+    [                                      ]
+    [0.944619744355961    0.372554258427628]
+    [                                      ]
+    [0.947379043823256    0.372191889362430]
+    [                                      ]
+    [0.950156633718548    0.371810273595839]
+    [                                      ]
+    [0.952934223613839    0.371420930089535]
+    [                                      ]
+    [0.955698612109209    0.371014543277646]
+    [                                      ]
+    [0.958463000604579    0.370601281468482]
+    [                                      ]
+    [0.961025942606146    0.370204881742755]
+    [                                      ]
+    [0.963588884607713    0.369799865098854],
+    [                                      ]
+    [0.966242662598941    0.369362717819202]
+    [                                      ]
+    [0.968896440590169    0.368921342923838]
+    [                                      ]
+    [0.971640981584966    0.368448417525835]
+    [                                      ]
+    [0.974385522579763    0.367972971712287]
+    [                                      ]
+    [0.977121261796782    0.367490436119332]
+    [                                      ]
+    [0.979857001013801    0.367005680837959]
+    [                                      ]
+    [0.982671045063599    0.366505711590567]
+    [                                      ]
+    [0.985485089113398    0.366008179561099]
+    [                                      ]
+    [0.987963700644176    0.365585371165082]
+    [                                      ]
+    [0.990442312174954    0.365173530497023]
+    [                                      ]
+    [0.993220347371657    0.364736024002541]
+    [                                      ]
+    [0.995998382568359    0.364334771379763]
+
+    [0.995999336242676    0.302177510150290]
+    [                                      ]
+    [0.996130140869707    0.300502564318441]
+    [                                      ]
+    [0.996260945496738    0.298997637020170]
+    [                                      ]
+    [0.996391750123769    0.297603908057942]
+    [                                      ]
+    [0.996522554750800    0.296328522215149]
+    [                                      ]
+    [0.996653359377831    0.295121288981713]
+    [                                      ]
+    [0.996784164004862    0.293993322732443]
+    [                                      ]
+    [0.996914968631893    0.292921633943124]
+    [                                      ]
+    [0.997045773258924    0.291908651220196]
+    [                                      ]
+    [0.997307382512987    0.290020085137881]
+    [                                      ]
+    [0.997568991767049    0.288283820513085]]
+    [                                      ]
+    [0.997830601021111    0.286672694103681]
+    [                                      ]
+    [0.998092210275173    0.285150354864978]
+    [                                      ]
+    [0.998330683990776    0.283838396770594]
+    [                                      ]
+    [0.998569157706380    0.282605965269693]
+    [                                      ]
+    [0.998807631421983    0.281415145721135]
+    [                                      ]
+    [0.999046105137587    0.280277754573150]
+    [                                      ]
+    [0.999284578853190    0.279179453224630]
+    [                                      ]
+    [0.999523052568793    0.278126368113506]
+    [                                      ]
+    [0.999761526284397    0.277109195393953]
+    [                                      ]
+    [       1.            0.276121262188848]
+
+                              [0.769572734832764           1.        ]
+plotData[t1*][separators] := [[                                      ],
+                              [0.769572734832764    0.433725252163040]
+
+    [0.931313037872314    0.501046499865094]
+    [                                      ],
+    [0.931313037872314    0.374166455184844]
+
+    [0.995998859405518    0.364334771379763]
+    [                                      ]]
+    [0.995998859405518    0.302177510150290]
+
+pl[1] := PLOT(CURVES(Matrix(2, 2, [[...],[...]], datatype = float[8]), COLOUR(
+
+    RGB, 0.47058824, 0., 0.054901961, _ATTRIBUTE("source" = "mathdefault"))),
+
+    AXESLABELS("", ""), VIEW(DEFAULT, DEFAULT))
+
+                           StPt := 0.931313514709473
+
+                           EndPt := 0.995998382568359
+
+                                  NumPts := 13
+
+pl[2] := PLOT(CURVES(Matrix(25, 2, [[...],[...],[...],[...],[...],[...],[...\
+    ],[...],[...],[...],[...],[...],[...],[...],[...],[...],[...],[...],[...\
+
+    ],[...],[...],[...],[...],[...],[...]], datatype = float[8]), COLOUR(RGB,
+
+    0.47058824, 0., 0.054901961, _ATTRIBUTE("source" = "mathdefault"))),
+
+    AXESLABELS("", ""), VIEW(0.931313514709473 .. 0.995998382568359, DEFAULT,
+
+    _ATTRIBUTE("source" = "mathdefault")))
+
+                           StPt := 0.995999336242676
+
+                                  EndPt := 1.0
+
+                                  NumPts := 3
+
+pl[3] := PLOT(CURVES(Matrix(21, 2, [[...],[...],[...],[...],[...],[...],[...\
+    ],[...],[...],[...],[...],[...],[...],[...],[...],[...],[...],[...],[...\
+
+    ],[...],[...]], datatype = float[8]), COLOUR(RGB, 0.47058824, 0.,
+
+    0.054901961, _ATTRIBUTE("source" = "mathdefault"))), AXESLABELS("", ""),
+
+    VIEW(0.995999336242676 .. 1.0, DEFAULT,
+
+    _ATTRIBUTE("source" = "mathdefault")))
+
+                 [       0.            1.]
+pl := table([1 = [                       ],
+                 [0.931312561035156    1.]
+
+        [0.931313514709473    0.658142565593998]
+        [                                      ]
+        [0.934133406783414    0.658983195806144]
+        [                                      ]
+        [0.936953298857355    0.659892675972566]
+        [                                      ]
+        [0.939406871873010    0.660726335417916]
+        [                                      ]
+        [0.941860444888666    0.661608099213969]
+        [                                      ]
+        [0.944619744355961    0.662651458908843]
+        [                                      ]
+        [0.947379043823256    0.663744558955472]
+        [                                      ]
+        [0.950156633718548    0.664898855614752]
+        [                                      ]
+        [0.952934223613839    0.666101496589194]
+        [                                      ]
+        [0.955698612109209    0.667344061575403]
+        [                                      ]
+        [0.958463000604579    0.668635509789076]
+        [                                      ]
+        [0.961025942606146    0.669878051382842]
+        [                                      ]
+    2 = [0.963588884607713    0.671165736793730],
+        [                                      ]
+        [0.966242662598941    0.672536951873583]
+        [                                      ]
+        [0.968896440590169    0.673957528421462]
+        [                                      ]
+        [0.971640981584966    0.675482050513324]
+        [                                      ]
+        [0.974385522579763    0.677056798199176]
+        [                                      ]
+        [0.977121261796782    0.678683376741386]
+        [                                      ]
+        [0.979857001013801    0.680374322309399]
+        [                                      ]
+        [0.982671045063599    0.682181328402524]
+        [                                      ]
+        [0.985485089113398    0.684061702065511]
+        [                                      ]
+        [0.987963700644176    0.685792252677323]
+        [                                      ]
+        [0.990442312174954    0.687597519968952]
+        [                                      ]
+        [0.993220347371657    0.689718495544625]
+        [                                      ]
+        [0.995998382568359    0.691951747913625]
+
+        [0.995999336242676    0.577946290402367]
+        [                                      ]
+        [0.996130140869707    0.574974337694038]
+        [                                      ]
+        [0.996260945496738    0.572311634817933]
+        [                                      ]
+        [0.996391750123769    0.569864423162855]
+        [                                      ]
+        [0.996522554750800    0.567619385406586]
+        [                                      ]
+        [0.996653359377831    0.565509423103487]
+        [                                      ]
+        [0.996784164004862    0.563543145510066]
+        [                                      ]
+        [0.996914968631893    0.561683846340396]
+        [                                      ]
+        [0.997045773258924    0.559928156792278]
+        [                                      ]
+        [0.997307382512987    0.556667674829161]
+        [                                      ]
+    3 = [0.997568991767049    0.553682902472362]
+        [                                      ]
+        [0.997830601021111    0.550925311069256]
+        [                                      ]
+        [0.998092210275173    0.548346415298085]
+        [                                      ]
+        [0.998330683990776    0.546132405447403]
+        [                                      ]
+        [0.998569157706380    0.544049927056290]
+        [                                      ]
+        [0.998807631421983    0.542057344384124]
+        [                                      ]
+        [0.999046105137587    0.540150071949573]
+        [                                      ]
+        [0.999284578853190    0.538329176530314]
+        [                                      ]
+        [0.999523052568793    0.536582941216659]
+        [                                      ]
+        [0.999761526284397    0.534897992203871]
+        [                                      ]
+        [       1.            0.533274243957045]
+
+    ])
+
+                            dv := 0.931313037872314
+
+                           y := 1., 0.658142565593998
+
+sep[2] := PLOT(CURVES(Matrix(2, 2, [[...],[...]], datatype = float[8]), COLOUR(
+
+    RGB, 0.47058824, 0., 0.054901961, _ATTRIBUTE("source" = "mathdefault"))),
+
+    AXESLABELS("", ""), VIEW(DEFAULT, DEFAULT))
+
+                            dv := 0.995998859405518
+
+                   y := 0.691951747913625, 0.577946290402367
+
+sep[3] := PLOT(CURVES(Matrix(2, 2, [[...],[...]], datatype = float[8]), COLOUR(
+
+    RGB, 0.47058824, 0., 0.054901961, _ATTRIBUTE("source" = "mathdefault"))),
+
+    AXESLABELS("", ""), VIEW(DEFAULT, DEFAULT))
+
+                  [0.931313037872314           1.        ]
+sep := table([2 = [                                      ],
+                  [0.931313037872314    0.658142565593998]
+
+        [0.995998859405518    0.691951747913625]
+    3 = [                                      ]
+        [0.995998859405518    0.577946290402367]
+
+    ])
+
+                        [       0.            1.]
+plotData[t2*][data] := [[                       ],
+                        [0.931312561035156    1.]
+
+    [0.931313514709473    0.658142565593998]
+    [                                      ]
+    [0.934133406783414    0.658983195806144]
+    [                                      ]
+    [0.936953298857355    0.659892675972566]
+    [                                      ]
+    [0.939406871873010    0.660726335417916]
+    [                                      ]
+    [0.941860444888666    0.661608099213969]
+    [                                      ]
+    [0.944619744355961    0.662651458908843]
+    [                                      ]
+    [0.947379043823256    0.663744558955472]
+    [                                      ]
+    [0.950156633718548    0.664898855614752]
+    [                                      ]
+    [0.952934223613839    0.666101496589194]
+    [                                      ]
+    [0.955698612109209    0.667344061575403]
+    [                                      ]
+    [0.958463000604579    0.668635509789076]
+    [                                      ]
+    [0.961025942606146    0.669878051382842]
+    [                                      ]
+    [0.963588884607713    0.671165736793730],
+    [                                      ]
+    [0.966242662598941    0.672536951873583]
+    [                                      ]
+    [0.968896440590169    0.673957528421462]
+    [                                      ]
+    [0.971640981584966    0.675482050513324]
+    [                                      ]
+    [0.974385522579763    0.677056798199176]
+    [                                      ]
+    [0.977121261796782    0.678683376741386]
+    [                                      ]
+    [0.979857001013801    0.680374322309399]
+    [                                      ]
+    [0.982671045063599    0.682181328402524]
+    [                                      ]
+    [0.985485089113398    0.684061702065511]
+    [                                      ]
+    [0.987963700644176    0.685792252677323]
+    [                                      ]
+    [0.990442312174954    0.687597519968952]
+    [                                      ]
+    [0.993220347371657    0.689718495544625]
+    [                                      ]
+    [0.995998382568359    0.691951747913625]
+
+    [0.995999336242676    0.577946290402367]
+    [                                      ]
+    [0.996130140869707    0.574974337694038]
+    [                                      ]
+    [0.996260945496738    0.572311634817933]
+    [                                      ]
+    [0.996391750123769    0.569864423162855]
+    [                                      ]
+    [0.996522554750800    0.567619385406586]
+    [                                      ]
+    [0.996653359377831    0.565509423103487]
+    [                                      ]
+    [0.996784164004862    0.563543145510066]
+    [                                      ]
+    [0.996914968631893    0.561683846340396]
+    [                                      ]
+    [0.997045773258924    0.559928156792278]
+    [                                      ]
+    [0.997307382512987    0.556667674829161]
+    [                                      ]
+    [0.997568991767049    0.553682902472362]]
+    [                                      ]
+    [0.997830601021111    0.550925311069256]
+    [                                      ]
+    [0.998092210275173    0.548346415298085]
+    [                                      ]
+    [0.998330683990776    0.546132405447403]
+    [                                      ]
+    [0.998569157706380    0.544049927056290]
+    [                                      ]
+    [0.998807631421983    0.542057344384124]
+    [                                      ]
+    [0.999046105137587    0.540150071949573]
+    [                                      ]
+    [0.999284578853190    0.538329176530314]
+    [                                      ]
+    [0.999523052568793    0.536582941216659]
+    [                                      ]
+    [0.999761526284397    0.534897992203871]
+    [                                      ]
+    [       1.            0.533274243957045]
+
+                              [0.931313037872314           1.        ]
+plotData[t2*][separators] := [[                                      ],
+                              [0.931313037872314    0.658142565593998]
+
+    [0.995998859405518    0.691951747913625]
+    [                                      ]]
+    [0.995998859405518    0.577946290402367]
+
+pl[2] := PLOT(CURVES(Matrix(2, 2, [[...],[...]], datatype = float[8]), COLOUR(
+
+    RGB, 0.47058824, 0., 0.054901961, _ATTRIBUTE("source" = "mathdefault"))),
+
+    AXESLABELS("", ""), VIEW(DEFAULT, DEFAULT))
+
+                           StPt := 0.995999336242676
+
+                                  EndPt := 1.0
+
+                                  NumPts := 3
+
+pl[3] := PLOT(CURVES(Matrix(21, 2, [[...],[...],[...],[...],[...],[...],[...\
+    ],[...],[...],[...],[...],[...],[...],[...],[...],[...],[...],[...],[...\
+
+    ],[...],[...]], datatype = float[8]), COLOUR(RGB, 0.47058824, 0.,
+
+    0.054901961, _ATTRIBUTE("source" = "mathdefault"))), AXESLABELS("", ""),
+
+    VIEW(0.995999336242676 .. 1.0, DEFAULT,
+
+    _ATTRIBUTE("source" = "mathdefault")))
+
+                 [       0.            1.]
+pl := table([2 = [                       ],
+                 [0.995998382568359    1.]
+
+        [0.995999336242676    0.835555448286687]
+        [                                      ]
+        [0.996130140869707    0.831344740985760]
+        [                                      ]
+        [0.996260945496738    0.827571035299524]
+        [                                      ]
+        [0.996391750123769    0.824113931771910]
+        [                                      ]
+        [0.996522554750800    0.820949211932513]
+        [                                      ]
+        [0.996653359377831    0.817982754492201]
+        [                                      ]
+        [0.996784164004862    0.815221984462877]
+        [                                      ]
+        [0.996914968631893    0.812617431197422]
+        [                                      ]
+        [0.997045773258924    0.810157915006993]
+        [                                      ]
+        [0.997307382512987    0.805619102502441]
+        [                                      ]
+    3 = [0.997568991767049    0.801478013238122]
+        [                                      ]
+        [0.997830601021111    0.797670862410700]
+        [                                      ]
+        [0.998092210275173    0.794132091500035]
+        [                                      ]
+        [0.998330683990776    0.791117749764811]
+        [                                      ]
+        [0.998569157706380    0.788276362537234]
+        [                                      ]
+        [0.998807631421983    0.785577411367778]
+        [                                      ]
+        [0.999046105137587    0.783022525386587]
+        [                                      ]
+        [0.999284578853190    0.780590807194157]
+        [                                      ]
+        [0.999523052568793    0.778262412012817]
+        [                                      ]
+        [0.999761526284397    0.776037550186907]
+        [                                      ]
+        [       1.            0.773900979493893]
+
+    ])
+
+                            dv := 0.995998859405518
+
+                           y := 1., 0.835555448286687
+
+sep[3] := PLOT(CURVES(Matrix(2, 2, [[...],[...]], datatype = float[8]), COLOUR(
+
+    RGB, 0.47058824, 0., 0.054901961, _ATTRIBUTE("source" = "mathdefault"))),
+
+    AXESLABELS("", ""), VIEW(DEFAULT, DEFAULT))
+
+                            [0.995998859405518           1.        ]
+          sep := table([3 = [                                      ]])
+                            [0.995998859405518    0.835555448286687]
+
+plotData[t3*][data] :=
+
+                                [0.995999336242676    0.835555448286687]
+                                [                                      ]
+                                [0.996130140869707    0.831344740985760]
+                                [                                      ]
+                                [0.996260945496738    0.827571035299524]
+                                [                                      ]
+                                [0.996391750123769    0.824113931771910]
+                                [                                      ]
+                                [0.996522554750800    0.820949211932513]
+                                [                                      ]
+                                [0.996653359377831    0.817982754492201]
+                                [                                      ]
+                                [0.996784164004862    0.815221984462877]
+                                [                                      ]
+                                [0.996914968631893    0.812617431197422]
+                                [                                      ]
+                                [0.997045773258924    0.810157915006993]
+                                [                                      ]
+                                [0.997307382512987    0.805619102502441]
+     [       0.            1.]  [                                      ]
+    [[                       ], [0.997568991767049    0.801478013238122]]
+     [0.995998382568359    1.]  [                                      ]
+                                [0.997830601021111    0.797670862410700]
+                                [                                      ]
+                                [0.998092210275173    0.794132091500035]
+                                [                                      ]
+                                [0.998330683990776    0.791117749764811]
+                                [                                      ]
+                                [0.998569157706380    0.788276362537234]
+                                [                                      ]
+                                [0.998807631421983    0.785577411367778]
+                                [                                      ]
+                                [0.999046105137587    0.783022525386587]
+                                [                                      ]
+                                [0.999284578853190    0.780590807194157]
+                                [                                      ]
+                                [0.999523052568793    0.778262412012817]
+                                [                                      ]
+                                [0.999761526284397    0.776037550186907]
+                                [                                      ]
+                                [       1.            0.773900979493893]
+
+                                  [0.995998859405518           1.        ]
+    plotData[t3*][separators] := [[                                      ]]
+                                  [0.995998859405518    0.835555448286687]
+
+
+real	3277m18.791s
+user	67423m36.471s
+sys	4314m32.352s
