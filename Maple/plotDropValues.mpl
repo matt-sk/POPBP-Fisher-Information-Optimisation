@@ -6,8 +6,11 @@ read FileTools[JoinPath]([LIBRARY_FOLDER, "Fisher.mpl"]):	# External Fisher info
 
 read "findDrop.mpl": # Utility function for finding the drop points (interval) for a given n, p and lambda. Defines `findDrop`
 
-SnapshotFileName := cat( ".snapshot.plotDropValues n=",N,".m" );
+# Initialise Timestamp
+ID_String := sprintf( "n=%a, timestamp=%s", N, StringTools[FormatTime]("%Y-%m-%d %X") );
 
+# Initialise snapshot file name and PlotData table.
+SnapshotFileName := cat( ".snapshot.plotDropValues n=",N,".m" );
 PlotData := table():
 
 # Set up the calculation functions.
