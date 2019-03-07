@@ -24,7 +24,7 @@ end proc:
 
 # The first time findDrop is called it takes a little longer than expected.
 # this is likely due to some sort of internal setup. We run it once so that this doesn't affect our timings.
-findDrop( 2, 0.01, Fisher:-FI[2] , threshold = 1 ):
+findDrop( N, 0.01, Fisher:-FI[N], threshold = 1 ):
 
 # Read the value of lambda to be used
 lambda := lambdaValues[N][L]:
