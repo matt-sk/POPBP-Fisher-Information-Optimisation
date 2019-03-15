@@ -40,13 +40,6 @@ findDrop := proc (N::posint, lambda, FI::procedure, { bounds::~Array(range(float
 		P[i] := minP[i]..maxP[i];
 	end do;
 
-	# Round all drop values to the threshold, making sure to round up.
-	# Note that llog10(p) will be -1 for 0.1 < p < 1, and -2 for 0.01 < p < 0.1. 
-	# So threshold +1 + ilog10(p) will tive the correct digit precision required for threshold decimal places of accuracy.
-	#Rounding := infinity;
-	#return map( p->evalf(p, threshold+ilog10(p)+1), convert(P,list) );
+	# Return the ranges as a list.
 	return convert( P, list );
 end proc;
-
-
-

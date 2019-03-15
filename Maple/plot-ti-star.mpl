@@ -1,19 +1,20 @@
 # Set variables for important folders
-LIBRARY_FOLDER := "../lib";
-DATA_FOLDER := cat("Optimisation/n=",N,"/data" );
+LIBRARY_FOLDER := FileTools[JoinPath](["..", "lib"], base = worksheetdir):
+
+DATA_FOLDER := FileTools[JoinPath](["Optimisation", cat("n=",N), "data"], base = worksheetdir):
 
 # Read the necessary libraries.
-read( cat(LIBRARY_FOLDER, "/opt.mpl" ) ):
-read( cat(LIBRARY_FOLDER, "/Fisher.mpl") );
-read( cat(LIBRARY_FOLDER, "/lambda.mpl") );
+read FileTools[JoinPath]([LIBRARY_FOLDER, "opt.mpl"]):		# Optimisation routines (properly accounting for boundaries). Defines `opt`
+read FileTools[JoinPath]([LIBRARY_FOLDER, "Fisher.mpl"]):	# External Fisher information routines. Defines `Fisher:-FI`
+read FileTools[JoinPath]([LIBRARY_FOLDER, "lambda.mpl"]):	# Lambda values used for optimisation. Defines `lambda`
 
 # Read LAMBDA from passed in L value.
 LAMBDA := lambdaValues[N][L];
 
 # Initialise file names (this makes the code to use the files be a bit more readabile)
-DropValuesFile := cat(DATA_FOLDER, "/DropValues.m");
-DataFileName := cat(DATA_FOLDER,"/plotData lambda=",LAMBDA,".m");
-SnapshotFileName := cat( ".snapshot,n=",N,",lambda=", LAMBDA, "-GENERAL.m");
+DropValuesFile := FileTools[JoinPath]( [DATA_FOLDER, "DropValues.m"] );
+DataFileName := FileTools[JoinPath]( [DATA_FOLDER,sprintf("plotData lambda=%a.m", lambda)] );
+SnapshotFileName := sprintf(".snapshot,n=%a,lambda=%a", N, LAMBDA );
 
 # Initialise Timestamp
 ID_String := sprintf( "n=%a, lambda=%a, timestamp=%s", N, LAMBDA, StringTools[FormatTime]("%Y-%m-%d %X") );
@@ -99,7 +100,7 @@ for i from 1 to N-1 do
 
 		pl[part] := plot( P->Snapshot_F( P, LAMBDA, N )[i], StPt..EndPt, numpoints=NumPts );
 	end do;
-	# Extract the plot data matrices from the stored plots.
+	# Extract the plot data matrices from the stored plots. (The data matrix is alwasy the 3rd element of the list returned by plottools[getdata]())
 	pl := map( x->plottools[getdata](x)[3], pl );
 
 	# Plot the vertical separation lines.
