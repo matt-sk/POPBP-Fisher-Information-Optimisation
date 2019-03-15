@@ -6,11 +6,11 @@ read FileTools[JoinPath]([LIBRARY_FOLDER, "Fisher.mpl"]):	# External Fisher info
 
 read "findDrop.mpl": # Utility function for finding the drop points (interval) for a given n, p and lambda. Defines `findDrop`
 
-# Initialise Timestamp
+# Initialise and print timestamp
 ID_String := sprintf( "n=%a, timestamp=%s", N, StringTools[FormatTime]("%Y-%m-%d %X") );
 
 # Initialise snapshot file name and PlotData table.
-SnapshotFileName := cat( ".snapshot.plotDropValues n=",N,".m" );
+SnapshotFileName := cat( ".snapshot.plotDropValues n=",N,".m" ):
 PlotData := table():
 
 # Set up the calculation functions.
@@ -37,7 +37,7 @@ try
 	# Read the snapshot file and populate the remember table of the function.
 	read( SnapshotFileName );
 
-	lprint( "Resuming from previous computation." );
+	printf( "Resuming from previous computation.\n" );
 	# Initialise the remember table for F from the snapshot file data.
 	for lambda in indices(PlotData, nolist) do
 		F(N,lambda) := PlotData[lambda];
@@ -111,7 +111,7 @@ CSVdata := Export( Matrix( [lambdaValues,seq(Data[k], k=1..N-1)] ), target=direc
 # -= =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= =-
 
 # plotData matrices (for use with Maple)
-DataFileName := FileTools[JoinPath]( [DATA_FOLDER,"dropValues plotData.m"] );
+DataFileName := FileTools[JoinPath]( [DATA_FOLDER,"dropValues plotData.m"] ):
 save( plotData, DataFileName ):
 
 # CSV file (for use with pgfplots)
@@ -119,3 +119,7 @@ CSVFileName := FileTools[JoinPath]([DATA_FOLDER, "dropValues plotData.csv"]):
 CSVFile := fopen( CSVFileName, WRITE ):
 fprintf( CSVFile, "%s\n%s", header, CSVdata ):
 fclose( CSVFile ):
+
+# Remove the snapshot file.
+fremove( SnapshotFileName );
+
