@@ -9,7 +9,7 @@ try
 	end if:
 
 	Fisher := module( )
-		export FI;
+		export FI, FI_Approx;
 		local external, external_threaded, _cpp_library;
 
 		# Initialiation
@@ -36,6 +36,17 @@ try
 		FI[3] := (t1, t2, t3, p, lambda) -> external_threaded[3](t1, t2, t3, p, lambda, NUMTHREADS ): 
 		FI[4] := (t1, t2, t3, t4, p, lambda) -> external_threaded[4](t1, t2, t3, t4, p, lambda, NUMTHREADS ): 
 		FI[5] := (t1, t2, t3, t4, t5, p, lambda) -> external_threaded[5](t1, t2, t3, t4, t5, p, lambda, NUMTHREADS ): 
+
+		# The approximation to FI[2]. 
+		FI_Approx[2] := (1+p/v[1])*p*(p+(1-p)*(p*v[1, 2]+(1-p)*v[2])-(1-p)*(p*v[1, 2]+(1-p)*v[2])^2)*((t2-t1)*p+(1-p)*t2*v[1])^2/((p+(1-p)*v[1])^2*(p+p*(1-p)*v[1, 2]+(1-p)^2*v[2])^2*(1-p*v[1, 2]-(1-p)*v[2]))-p/(p+(1-p)*v[1])*(p*(t2-t1)^2*(p+(1-p)*(1-v[1, 2])*v[1, 2])/((1-v[1, 2])*(p+(1-p)*v[1, 2])^2))+p*t1^2*(p+(1-p)*(1-v[1])*v[1])/((1-v[1])*(p+(1-p)*v[1])^2):
+		FI_Approx[2] := eval(FI_Approx[2], {v[1] = exp(-lambda*t1), v[2] = exp(-lambda*t2), v[1, 2] = exp(-lambda*(t2-t1))}):
+		# Note that there are undefined values when t1=0 and/or t1=t2, so we must take the limits and use a piecewise function to choose between the different expressions.
+		FI_Approx[2] := piecewise(
+			t1=0.,			piecewise( t2=0., limit( limit( FI_Approx[2], t1=0 ), t2=0 ), limit( FI_Approx[2], t1=0 ) ),
+			t2-t1=0.,		limit( FI_Approx[2], t2=t1 ), # t1 and t2 are the same, up to numeric precision.
+			FI_Approx[2] # Default
+		):
+		FI_Approx[2] := unapply( FI_Approx[2], t1, t2, p, lambda ):
 	end module;
 
 catch:
