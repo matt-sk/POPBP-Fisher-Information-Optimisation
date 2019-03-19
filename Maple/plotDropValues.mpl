@@ -1,8 +1,9 @@
-LIBRARY_FOLDER := FileTools[JoinPath](["..", "lib"] ):
+LIBRARY_FOLDER	:= FileTools[JoinPath](["..", "lib"] ):
 DATA_FOLDER		:= FileTools[JoinPath](["Optimisation", cat("n=",N), "data"] ):
 
 read FileTools[JoinPath]([LIBRARY_FOLDER, "opt.mpl"]):		# Optimisation routines (properly accounting for boundaries). Defines `opt`
 read FileTools[JoinPath]([LIBRARY_FOLDER, "Fisher.mpl"]):	# External Fisher information routines. Defines `Fisher:-FI`
+read FileTools[JoinPath]([LIBRARY_FOLDER, "lambda.mpl"]):	# Lambda values used for optimisation. Defines `lambda`
 
 read "findDrop.mpl": # Utility function for finding the drop points (interval) for a given n, p and lambda. Defines `findDrop`
 
@@ -19,16 +20,14 @@ F := proc( N, L )
 	local St,Fin,DV;
 	global Fisher, PlotData;
 
-	userinfo( 5, Fisher, `p=`||P );
-
 	St:=time[real]();
-	DV:=findDrop( N, L, Fisher:-FI[N], threshold=3 );
+	DV:=findDrop( N, L, Fisher:-FI[N], threshold=6 );
 	Fin:=time[real]();
 
 	PlotData[L] := DV;
 	save( PlotData, SnapshotFileName );
 
-	userinfo( 4, Fisher, `lambda=`, L, `DV=`, DV, (Fin-St), `seconds` );
+	userinfo( 4, Fisher, `lambda=`||L, cat(`DV=`,DV), cat(Fin-St,` seconds`) );
 	return DV;
 end proc:
 
@@ -51,14 +50,23 @@ catch :
 end try:
 
 # Set infolevel to 4 so that the info from F is printed out, but the info from findDrop is not.
-infolevel[Fisher] := 4:
+infolevel[Fisher] := 5:
 
 
-# Plot the bounds of the drop values.
+# -= =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= =-
+# -= Plot the bounds of the drop values. =-
+# -= =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= =-
+
+# We sample the drop values at even intervals of 0.1 (to make sure we capture cases already pre-computed)
+# And rely on the adaptive algorithm to give us up to 64 poitns in each 0.1 interval, as needed.
+# We set the resolution to 3000 based on a 5" wide plot at 600DPI (although the actual plot is a bit over 4" currently).
+# We increased the adaptive allowance to accomodate for the sparser grid.
+
 # Note that these plots are simply to casue the relevant data for a smooth plot to be saved in both
 # the PlotData table, and the remember table for F. We regenerate these plots later with more data.
+SAMPLE_POINTS := [ seq(k, k=PLOT_RANGE, 0.05) ]:
 for i from 1 to N-1 do
-	P[i] := plot( [L->lhs(F(N,L)[i]),L->rhs(F(N,L)[i])], 0.0..5.0 )
+	P[i] := plot( [L->lhs(F(N,L)[i]),L->rhs(F(N,L)[i])], PLOT_RANGE, sample=SAMPLE_POINTS, resolution=3000, adaptive=7 ):
 end do:
 
 # Colate the calculated data into a text table for use with LaTeX pgfplots.

@@ -1,7 +1,6 @@
 # Set variables for important folders
-LIBRARY_FOLDER := FileTools[JoinPath](["..", "lib"], base = worksheetdir):
-
-DATA_FOLDER := FileTools[JoinPath](["Optimisation", cat("n=",N), "data"], base = worksheetdir):
+LIBRARY_FOLDER	:= FileTools[JoinPath](["..", "lib"] ):
+DATA_FOLDER		:= FileTools[JoinPath](["Optimisation", cat("n=",N), "data"] ):
 
 # Read the necessary libraries.
 read FileTools[JoinPath]([LIBRARY_FOLDER, "opt.mpl"]):		# Optimisation routines (properly accounting for boundaries). Defines `opt`
