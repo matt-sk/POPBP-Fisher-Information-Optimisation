@@ -7,13 +7,11 @@
 
 # Load Modules
 source /etc/profile.d/modules.sh
-module load maple/2017
-
-# Run the work
-cd ${PBS_O_WORKDIR}
+module load maple/2017 gcc/7.2.0
 
 # Output the run time information for the grid.
-./gridRuntimeInfo.sh
+${PBS_O_WORKDIR}/gridRuntimeInfo.sh
 
-#time maple -q -c "LAMBDA:=${PBS_ARRAY_INDEX}.0;" plot-ti-star-2.mpl
+# Run the work
+cd ${PBS_O_WORKDIR}../Maple
 time maple -q -c "N:=2;" -c "L:=${PBS_ARRAY_INDEX};" -c "NUMTHREADS:=1;" plot-ti-star.mpl

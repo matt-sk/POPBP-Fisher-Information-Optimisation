@@ -7,12 +7,11 @@
 
 # Load Modules
 source /etc/profile.d/modules.sh
-module load maple/2017
+module load maple/2017 gcc/7.2.0
 
-# Run the work
-cd ${PBS_O_WORKDIR}
 # Output the run time information for the grid.
-./gridRuntimeInfo.sh
+${PBS_O_WORKDIR}/gridRuntimeInfo.sh
 
 # Run the drop detection.
-time maple -q -c "NUMTHREADS:=36;" -c "THRESHOLD:=6;" -c "N:=2;" -c "L:=${PBS_ARRAY_INDEX};" Drop\ Detection.mpl
+cd ${PBS_O_WORKDIR}../Maple
+time maple -q -c "NUMTHREADS:=1;" -c "THRESHOLD:=6;" -c "N:=2;" -c "L:=${PBS_ARRAY_INDEX};" Drop\ Detection.mpl
