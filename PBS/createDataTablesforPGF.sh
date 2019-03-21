@@ -11,5 +11,5 @@ module load maple/2017 gcc/7.2.0
 ${PBS_O_WORKDIR}/gridRuntimeInfo.sh
 
 # Run the work
-cd ${PBS_O_WORKDIR}../Maple/Optimisation
+cd ${PBS_O_WORKDIR}/../Maple/Optimisation
 time maple -q -c "NUMTHREADS:=36;" createDataTablesforPGF.mpl

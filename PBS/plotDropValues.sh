@@ -15,10 +15,10 @@ LAMBDA_RANGE[2]=0..6
 LAMBDA_RANGE[3]=0..4
 
 # Output the run time information for the grid.
-cd ${PBS_O_WORKDIR}/../Maple
-./gridRuntimeInfo.sh
+${PBS_O_WORKDIR}/gridRuntimeInfo.sh
 
 # Run the work.
+cd ${PBS_O_WORKDIR}/../Maple
 N=${PBS_ARRAY_INDEX}
 PLOT_RANGE=${LAMBDA_RANGE[${PBS_ARRAY_INDEX}]}
 time maple -q -c "N:=${N};" -c "PLOT_RANGE:=${PLOT_RANGE};" -c "NUMTHREADS:=36;" plotDropValues.mpl

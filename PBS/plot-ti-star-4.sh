@@ -13,5 +13,5 @@ module load maple/2017 gcc/7.2.0
 ${PBS_O_WORKDIR}/gridRuntimeInfo.sh
 
 # Run the work
-cd ${PBS_O_WORKDIR}../Maple
+cd ${PBS_O_WORKDIR}/../Maple
 time maple -q -c "N:=4;" -c "L:=${PBS_ARRAY_INDEX};" -c "NUMTHREADS:=36;" plot-ti-star.mpl

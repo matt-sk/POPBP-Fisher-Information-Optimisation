@@ -13,5 +13,5 @@ module load maple/2017 gcc/7.2.0
 ${PBS_O_WORKDIR}/gridRuntimeInfo.sh
 
 # Run the drop detection.
-cd ${PBS_O_WORKDIR}../Maple
+cd ${PBS_O_WORKDIR}/../Maple
 time maple -q -c "NUMTHREADS:=36;" -c "THRESHOLD:=6;" -c "N:=5;" -c "L:=${PBS_ARRAY_INDEX};" Drop\ Detection.mpl
