@@ -12,8 +12,8 @@ LAMBDA := lambdaValues[N][L];
 
 # Initialise file names (this makes the code to use the files be a bit more readabile)
 DropValuesFile := FileTools[JoinPath]( [DATA_FOLDER, "DropValues.m"] );
-DataFileName := FileTools[JoinPath]( [DATA_FOLDER,sprintf("plotData lambda=%a.m", lambda)] );
-SnapshotFileName := sprintf(".snapshot,n=%a,lambda=%a", N, LAMBDA );
+DataFileName := FileTools[JoinPath]( [DATA_FOLDER,sprintf("plotData lambda=%a.m", LAMBDA)] );
+SnapshotFileName := sprintf(".snapshot plot-ti-star n=%a,lambda=%a.m", N, LAMBDA );
 
 # Initialise Timestamp
 ID_String := sprintf( "n=%a, lambda=%a, timestamp=%s", N, LAMBDA, StringTools[FormatTime]("%Y-%m-%d %X") );
