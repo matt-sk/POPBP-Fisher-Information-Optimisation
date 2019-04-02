@@ -11,7 +11,7 @@ read "findDrop.mpl": # Utility function for finding the drop points (interval) f
 ID_String := sprintf( "n=%a, timestamp=%s", N, StringTools[FormatTime]("%Y-%m-%d %X") );
 
 # Initialise snapshot file name and PlotData table.
-SnapshotFileName := cat( ".snapshot.plotDropValues n=",N,".m" ):
+SnapshotFileName := cat( ".snapshot plotDropValues n=",N,".m" ):
 PlotData := table():
 
 # Set up the calculation functions.

@@ -1,0 +1,1243 @@
+Sat Mar  9 15:23:32 AEDT 2019
+
+Linux rcg097 3.10.0-862.6.3.el7.x86_64 #1 SMP Fri Jun 15 17:57:37 EDT 2018 x86_64 x86_64 x86_64 GNU/Linux
+
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 85
+model name	: Intel(R) Xeon(R) Gold 6150 CPU @ 2.70GHz
+stepping	: 4
+microcode	: 0x200004d
+cpu MHz		: 2700.000
+cache size	: 25344 KB
+physical id	: 0
+siblings	: 18
+core id		: 0
+cpu cores	: 18
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 intel_ppin intel_pt ssbd mba ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke spec_ctrl intel_stibp
+bogomips	: 5400.00
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 85
+model name	: Intel(R) Xeon(R) Gold 6150 CPU @ 2.70GHz
+stepping	: 4
+microcode	: 0x200004d
+cpu MHz		: 2700.000
+cache size	: 25344 KB
+physical id	: 1
+siblings	: 18
+core id		: 0
+cpu cores	: 18
+apicid		: 64
+initial apicid	: 64
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 intel_ppin intel_pt ssbd mba ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke spec_ctrl intel_stibp
+bogomips	: 5404.64
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+processor	: 2
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 85
+model name	: Intel(R) Xeon(R) Gold 6150 CPU @ 2.70GHz
+stepping	: 4
+microcode	: 0x200004d
+cpu MHz		: 2700.000
+cache size	: 25344 KB
+physical id	: 0
+siblings	: 18
+core id		: 4
+cpu cores	: 18
+apicid		: 8
+initial apicid	: 8
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 intel_ppin intel_pt ssbd mba ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke spec_ctrl intel_stibp
+bogomips	: 5400.00
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+processor	: 3
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 85
+model name	: Intel(R) Xeon(R) Gold 6150 CPU @ 2.70GHz
+stepping	: 4
+microcode	: 0x200004d
+cpu MHz		: 2700.000
+cache size	: 25344 KB
+physical id	: 1
+siblings	: 18
+core id		: 4
+cpu cores	: 18
+apicid		: 72
+initial apicid	: 72
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 intel_ppin intel_pt ssbd mba ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke spec_ctrl intel_stibp
+bogomips	: 5404.64
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+processor	: 4
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 85
+model name	: Intel(R) Xeon(R) Gold 6150 CPU @ 2.70GHz
+stepping	: 4
+microcode	: 0x200004d
+cpu MHz		: 2700.000
+cache size	: 25344 KB
+physical id	: 0
+siblings	: 18
+core id		: 1
+cpu cores	: 18
+apicid		: 2
+initial apicid	: 2
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 intel_ppin intel_pt ssbd mba ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke spec_ctrl intel_stibp
+bogomips	: 5400.00
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+processor	: 5
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 85
+model name	: Intel(R) Xeon(R) Gold 6150 CPU @ 2.70GHz
+stepping	: 4
+microcode	: 0x200004d
+cpu MHz		: 2700.000
+cache size	: 25344 KB
+physical id	: 1
+siblings	: 18
+core id		: 1
+cpu cores	: 18
+apicid		: 66
+initial apicid	: 66
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 intel_ppin intel_pt ssbd mba ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke spec_ctrl intel_stibp
+bogomips	: 5404.64
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+processor	: 6
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 85
+model name	: Intel(R) Xeon(R) Gold 6150 CPU @ 2.70GHz
+stepping	: 4
+microcode	: 0x200004d
+cpu MHz		: 2700.000
+cache size	: 25344 KB
+physical id	: 0
+siblings	: 18
+core id		: 3
+cpu cores	: 18
+apicid		: 6
+initial apicid	: 6
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 intel_ppin intel_pt ssbd mba ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke spec_ctrl intel_stibp
+bogomips	: 5400.00
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+processor	: 7
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 85
+model name	: Intel(R) Xeon(R) Gold 6150 CPU @ 2.70GHz
+stepping	: 4
+microcode	: 0x200004d
+cpu MHz		: 2700.000
+cache size	: 25344 KB
+physical id	: 1
+siblings	: 18
+core id		: 3
+cpu cores	: 18
+apicid		: 70
+initial apicid	: 70
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 intel_ppin intel_pt ssbd mba ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke spec_ctrl intel_stibp
+bogomips	: 5404.64
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+processor	: 8
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 85
+model name	: Intel(R) Xeon(R) Gold 6150 CPU @ 2.70GHz
+stepping	: 4
+microcode	: 0x200004d
+cpu MHz		: 2700.000
+cache size	: 25344 KB
+physical id	: 0
+siblings	: 18
+core id		: 2
+cpu cores	: 18
+apicid		: 4
+initial apicid	: 4
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 intel_ppin intel_pt ssbd mba ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke spec_ctrl intel_stibp
+bogomips	: 5400.00
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+processor	: 9
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 85
+model name	: Intel(R) Xeon(R) Gold 6150 CPU @ 2.70GHz
+stepping	: 4
+microcode	: 0x200004d
+cpu MHz		: 2700.000
+cache size	: 25344 KB
+physical id	: 1
+siblings	: 18
+core id		: 2
+cpu cores	: 18
+apicid		: 68
+initial apicid	: 68
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 intel_ppin intel_pt ssbd mba ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke spec_ctrl intel_stibp
+bogomips	: 5404.64
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+processor	: 10
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 85
+model name	: Intel(R) Xeon(R) Gold 6150 CPU @ 2.70GHz
+stepping	: 4
+microcode	: 0x200004d
+cpu MHz		: 2700.000
+cache size	: 25344 KB
+physical id	: 0
+siblings	: 18
+core id		: 11
+cpu cores	: 18
+apicid		: 22
+initial apicid	: 22
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 intel_ppin intel_pt ssbd mba ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke spec_ctrl intel_stibp
+bogomips	: 5400.00
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+processor	: 11
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 85
+model name	: Intel(R) Xeon(R) Gold 6150 CPU @ 2.70GHz
+stepping	: 4
+microcode	: 0x200004d
+cpu MHz		: 2700.000
+cache size	: 25344 KB
+physical id	: 1
+siblings	: 18
+core id		: 11
+cpu cores	: 18
+apicid		: 86
+initial apicid	: 86
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 intel_ppin intel_pt ssbd mba ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke spec_ctrl intel_stibp
+bogomips	: 5404.64
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+processor	: 12
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 85
+model name	: Intel(R) Xeon(R) Gold 6150 CPU @ 2.70GHz
+stepping	: 4
+microcode	: 0x200004d
+cpu MHz		: 2700.000
+cache size	: 25344 KB
+physical id	: 0
+siblings	: 18
+core id		: 8
+cpu cores	: 18
+apicid		: 16
+initial apicid	: 16
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 intel_ppin intel_pt ssbd mba ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke spec_ctrl intel_stibp
+bogomips	: 5400.00
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+processor	: 13
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 85
+model name	: Intel(R) Xeon(R) Gold 6150 CPU @ 2.70GHz
+stepping	: 4
+microcode	: 0x200004d
+cpu MHz		: 2700.000
+cache size	: 25344 KB
+physical id	: 1
+siblings	: 18
+core id		: 8
+cpu cores	: 18
+apicid		: 80
+initial apicid	: 80
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 intel_ppin intel_pt ssbd mba ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke spec_ctrl intel_stibp
+bogomips	: 5404.64
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+processor	: 14
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 85
+model name	: Intel(R) Xeon(R) Gold 6150 CPU @ 2.70GHz
+stepping	: 4
+microcode	: 0x200004d
+cpu MHz		: 2700.000
+cache size	: 25344 KB
+physical id	: 0
+siblings	: 18
+core id		: 10
+cpu cores	: 18
+apicid		: 20
+initial apicid	: 20
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 intel_ppin intel_pt ssbd mba ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke spec_ctrl intel_stibp
+bogomips	: 5400.00
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+processor	: 15
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 85
+model name	: Intel(R) Xeon(R) Gold 6150 CPU @ 2.70GHz
+stepping	: 4
+microcode	: 0x200004d
+cpu MHz		: 2700.000
+cache size	: 25344 KB
+physical id	: 1
+siblings	: 18
+core id		: 10
+cpu cores	: 18
+apicid		: 84
+initial apicid	: 84
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 intel_ppin intel_pt ssbd mba ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke spec_ctrl intel_stibp
+bogomips	: 5404.64
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+processor	: 16
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 85
+model name	: Intel(R) Xeon(R) Gold 6150 CPU @ 2.70GHz
+stepping	: 4
+microcode	: 0x200004d
+cpu MHz		: 2700.000
+cache size	: 25344 KB
+physical id	: 0
+siblings	: 18
+core id		: 9
+cpu cores	: 18
+apicid		: 18
+initial apicid	: 18
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 intel_ppin intel_pt ssbd mba ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke spec_ctrl intel_stibp
+bogomips	: 5400.00
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+processor	: 17
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 85
+model name	: Intel(R) Xeon(R) Gold 6150 CPU @ 2.70GHz
+stepping	: 4
+microcode	: 0x200004d
+cpu MHz		: 2700.000
+cache size	: 25344 KB
+physical id	: 1
+siblings	: 18
+core id		: 9
+cpu cores	: 18
+apicid		: 82
+initial apicid	: 82
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 intel_ppin intel_pt ssbd mba ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke spec_ctrl intel_stibp
+bogomips	: 5404.64
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+processor	: 18
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 85
+model name	: Intel(R) Xeon(R) Gold 6150 CPU @ 2.70GHz
+stepping	: 4
+microcode	: 0x200004d
+cpu MHz		: 2700.000
+cache size	: 25344 KB
+physical id	: 0
+siblings	: 18
+core id		: 20
+cpu cores	: 18
+apicid		: 40
+initial apicid	: 40
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 intel_ppin intel_pt ssbd mba ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke spec_ctrl intel_stibp
+bogomips	: 5400.00
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+processor	: 19
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 85
+model name	: Intel(R) Xeon(R) Gold 6150 CPU @ 2.70GHz
+stepping	: 4
+microcode	: 0x200004d
+cpu MHz		: 2700.000
+cache size	: 25344 KB
+physical id	: 1
+siblings	: 18
+core id		: 20
+cpu cores	: 18
+apicid		: 104
+initial apicid	: 104
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 intel_ppin intel_pt ssbd mba ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke spec_ctrl intel_stibp
+bogomips	: 5404.64
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+processor	: 20
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 85
+model name	: Intel(R) Xeon(R) Gold 6150 CPU @ 2.70GHz
+stepping	: 4
+microcode	: 0x200004d
+cpu MHz		: 2700.000
+cache size	: 25344 KB
+physical id	: 0
+siblings	: 18
+core id		: 16
+cpu cores	: 18
+apicid		: 32
+initial apicid	: 32
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 intel_ppin intel_pt ssbd mba ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke spec_ctrl intel_stibp
+bogomips	: 5400.00
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+processor	: 21
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 85
+model name	: Intel(R) Xeon(R) Gold 6150 CPU @ 2.70GHz
+stepping	: 4
+microcode	: 0x200004d
+cpu MHz		: 2700.000
+cache size	: 25344 KB
+physical id	: 1
+siblings	: 18
+core id		: 16
+cpu cores	: 18
+apicid		: 96
+initial apicid	: 96
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 intel_ppin intel_pt ssbd mba ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke spec_ctrl intel_stibp
+bogomips	: 5404.64
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+processor	: 22
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 85
+model name	: Intel(R) Xeon(R) Gold 6150 CPU @ 2.70GHz
+stepping	: 4
+microcode	: 0x200004d
+cpu MHz		: 2700.000
+cache size	: 25344 KB
+physical id	: 0
+siblings	: 18
+core id		: 19
+cpu cores	: 18
+apicid		: 38
+initial apicid	: 38
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 intel_ppin intel_pt ssbd mba ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke spec_ctrl intel_stibp
+bogomips	: 5400.00
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+processor	: 23
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 85
+model name	: Intel(R) Xeon(R) Gold 6150 CPU @ 2.70GHz
+stepping	: 4
+microcode	: 0x200004d
+cpu MHz		: 2700.000
+cache size	: 25344 KB
+physical id	: 1
+siblings	: 18
+core id		: 19
+cpu cores	: 18
+apicid		: 102
+initial apicid	: 102
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 intel_ppin intel_pt ssbd mba ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke spec_ctrl intel_stibp
+bogomips	: 5404.64
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+processor	: 24
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 85
+model name	: Intel(R) Xeon(R) Gold 6150 CPU @ 2.70GHz
+stepping	: 4
+microcode	: 0x200004d
+cpu MHz		: 2700.000
+cache size	: 25344 KB
+physical id	: 0
+siblings	: 18
+core id		: 17
+cpu cores	: 18
+apicid		: 34
+initial apicid	: 34
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 intel_ppin intel_pt ssbd mba ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke spec_ctrl intel_stibp
+bogomips	: 5400.00
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+processor	: 25
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 85
+model name	: Intel(R) Xeon(R) Gold 6150 CPU @ 2.70GHz
+stepping	: 4
+microcode	: 0x200004d
+cpu MHz		: 2700.000
+cache size	: 25344 KB
+physical id	: 1
+siblings	: 18
+core id		: 17
+cpu cores	: 18
+apicid		: 98
+initial apicid	: 98
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 intel_ppin intel_pt ssbd mba ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke spec_ctrl intel_stibp
+bogomips	: 5404.64
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+processor	: 26
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 85
+model name	: Intel(R) Xeon(R) Gold 6150 CPU @ 2.70GHz
+stepping	: 4
+microcode	: 0x200004d
+cpu MHz		: 2700.000
+cache size	: 25344 KB
+physical id	: 0
+siblings	: 18
+core id		: 18
+cpu cores	: 18
+apicid		: 36
+initial apicid	: 36
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 intel_ppin intel_pt ssbd mba ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke spec_ctrl intel_stibp
+bogomips	: 5400.00
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+processor	: 27
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 85
+model name	: Intel(R) Xeon(R) Gold 6150 CPU @ 2.70GHz
+stepping	: 4
+microcode	: 0x200004d
+cpu MHz		: 2700.000
+cache size	: 25344 KB
+physical id	: 1
+siblings	: 18
+core id		: 18
+cpu cores	: 18
+apicid		: 100
+initial apicid	: 100
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 intel_ppin intel_pt ssbd mba ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke spec_ctrl intel_stibp
+bogomips	: 5404.64
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+processor	: 28
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 85
+model name	: Intel(R) Xeon(R) Gold 6150 CPU @ 2.70GHz
+stepping	: 4
+microcode	: 0x200004d
+cpu MHz		: 2700.000
+cache size	: 25344 KB
+physical id	: 0
+siblings	: 18
+core id		: 24
+cpu cores	: 18
+apicid		: 48
+initial apicid	: 48
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 intel_ppin intel_pt ssbd mba ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke spec_ctrl intel_stibp
+bogomips	: 5400.00
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+processor	: 29
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 85
+model name	: Intel(R) Xeon(R) Gold 6150 CPU @ 2.70GHz
+stepping	: 4
+microcode	: 0x200004d
+cpu MHz		: 2700.000
+cache size	: 25344 KB
+physical id	: 1
+siblings	: 18
+core id		: 24
+cpu cores	: 18
+apicid		: 112
+initial apicid	: 112
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 intel_ppin intel_pt ssbd mba ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke spec_ctrl intel_stibp
+bogomips	: 5404.64
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+processor	: 30
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 85
+model name	: Intel(R) Xeon(R) Gold 6150 CPU @ 2.70GHz
+stepping	: 4
+microcode	: 0x200004d
+cpu MHz		: 2700.000
+cache size	: 25344 KB
+physical id	: 0
+siblings	: 18
+core id		: 27
+cpu cores	: 18
+apicid		: 54
+initial apicid	: 54
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 intel_ppin intel_pt ssbd mba ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke spec_ctrl intel_stibp
+bogomips	: 5400.00
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+processor	: 31
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 85
+model name	: Intel(R) Xeon(R) Gold 6150 CPU @ 2.70GHz
+stepping	: 4
+microcode	: 0x200004d
+cpu MHz		: 2700.000
+cache size	: 25344 KB
+physical id	: 1
+siblings	: 18
+core id		: 27
+cpu cores	: 18
+apicid		: 118
+initial apicid	: 118
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 intel_ppin intel_pt ssbd mba ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke spec_ctrl intel_stibp
+bogomips	: 5404.64
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+processor	: 32
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 85
+model name	: Intel(R) Xeon(R) Gold 6150 CPU @ 2.70GHz
+stepping	: 4
+microcode	: 0x200004d
+cpu MHz		: 2700.000
+cache size	: 25344 KB
+physical id	: 0
+siblings	: 18
+core id		: 25
+cpu cores	: 18
+apicid		: 50
+initial apicid	: 50
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 intel_ppin intel_pt ssbd mba ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke spec_ctrl intel_stibp
+bogomips	: 5400.00
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+processor	: 33
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 85
+model name	: Intel(R) Xeon(R) Gold 6150 CPU @ 2.70GHz
+stepping	: 4
+microcode	: 0x200004d
+cpu MHz		: 2700.000
+cache size	: 25344 KB
+physical id	: 1
+siblings	: 18
+core id		: 25
+cpu cores	: 18
+apicid		: 114
+initial apicid	: 114
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 intel_ppin intel_pt ssbd mba ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke spec_ctrl intel_stibp
+bogomips	: 5404.64
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+processor	: 34
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 85
+model name	: Intel(R) Xeon(R) Gold 6150 CPU @ 2.70GHz
+stepping	: 4
+microcode	: 0x200004d
+cpu MHz		: 2700.000
+cache size	: 25344 KB
+physical id	: 0
+siblings	: 18
+core id		: 26
+cpu cores	: 18
+apicid		: 52
+initial apicid	: 52
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 intel_ppin intel_pt ssbd mba ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke spec_ctrl intel_stibp
+bogomips	: 5400.00
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+processor	: 35
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 85
+model name	: Intel(R) Xeon(R) Gold 6150 CPU @ 2.70GHz
+stepping	: 4
+microcode	: 0x200004d
+cpu MHz		: 2700.000
+cache size	: 25344 KB
+physical id	: 1
+siblings	: 18
+core id		: 26
+cpu cores	: 18
+apicid		: 116
+initial apicid	: 116
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 intel_ppin intel_pt ssbd mba ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke spec_ctrl intel_stibp
+bogomips	: 5404.64
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+-= =-=-=-=-=-=-=-=-=-=-= =-
+
+               ID_String := "n=2, timestamp=2019-03-09 15:23:34"
+
+F:   lambda=   .2628802512e-1   DV=   [.9990234375 .. 1.]   .834   seconds
+F:   lambda=   .4916109522e-1   DV=   [.9990234375 .. 1.]   .98e-1   seconds
+F:   lambda=   .7488425477e-1   DV=   [.9990234375 .. 1.]   .101   seconds
+F:   lambda=   .1007779241   DV=   [.998046875 .. .9990234375]   .129   seconds
+F:   lambda=   .1265485254   DV=   [.998046875 .. .9990234375]   .111   seconds
+F:   lambda=   .1504411716   DV=   [.9970703125 .. .998046875]   .119   seconds
+F:   lambda=   .1751806229   DV=   [.9970703125 .. .998046875]   .154   seconds
+F:   lambda=   .2007661987   DV=   [.99609375 .. .9970703125]   .138   seconds
+F:   lambda=   .2262697214   DV=   [.9951171875 .. .99609375]   .144   seconds
+F:   lambda=   .2525032291   DV=   [.994140625 .. .9951171875]   .186   seconds
+F:   lambda=   .2756097171   DV=   [.9931640625 .. .994140625]   .167   seconds
+F:   lambda=   .3016221497   DV=   [.9921875 .. .9931640625]   .183   seconds
+F:   lambda=   .3277413920   DV=   [.9912109375 .. .9921875]   .214   seconds
+F:   lambda=   .3529121216   DV=   [.990234375 .. .9912109375]   .210   seconds
+F:   lambda=   .3757695555   DV=   [.9892578125 .. .990234375]   .222   seconds
+F:   lambda=   .4029492553   DV=   [.9873046875 .. .98828125]   .260   seconds
+F:   lambda=   .4259740261   DV=   [.986328125 .. .9873046875]   .264   seconds
+F:   lambda=   .4527573083   DV=   [.984375 .. .9853515625]   .291   seconds
+F:   lambda=   .4764650512   DV=   [.9833984375 .. .984375]   .306   seconds
+F:   lambda=   .5024762027   DV=   [.9814453125 .. .982421875]   .310   seconds
+F:   lambda=   .5272449701   DV=   [.9794921875 .. .98046875]   .332   seconds
+F:   lambda=   .5530885804   DV=   [.9775390625 .. .978515625]   .362   seconds
+F:   lambda=   .5768210821   DV=   [.9755859375 .. .9765625]   .400   seconds
+F:   lambda=   .6024197914   DV=   [.9736328125 .. .974609375]   .400   seconds
+F:   lambda=   .6290096560   DV=   [.970703125 .. .9716796875]   .433   seconds
+F:   lambda=   .6521562113   DV=   [.96875 .. .9697265625]   .485   seconds
+F:   lambda=   .6771551251   DV=   [.9658203125 .. .966796875]   .460   seconds
+F:   lambda=   .7029814492   DV=   [.962890625 .. .9638671875]   .498   seconds
+F:   lambda=   .7282474688   DV=   [.958984375 .. .9599609375]   .551   seconds
+F:   lambda=   .7526936419   DV=   [.9560546875 .. .95703125]   .560   seconds
+F:   lambda=   .7798369492   DV=   [.9521484375 .. .953125]   .579   seconds
+F:   lambda=   .8042264181   DV=   [.9482421875 .. .94921875]   .677   seconds
+F:   lambda=   .8302673819   DV=   [.9443359375 .. .9453125]   .666   seconds
+F:   lambda=   .8538643656   DV=   [.9404296875 .. .94140625]   .838   seconds
+F:   lambda=   .8796621015   DV=   [.935546875 .. .9365234375]   .892   seconds
+F:   lambda=   .9039357605   DV=   [.931640625 .. .9326171875]   .915   seconds
+F:   lambda=   .9293087284   DV=   [.92578125 .. .9267578125]   1.001   seconds
+F:   lambda=   .9541154422   DV=   [.9208984375 .. .921875]   .987   seconds
+F:   lambda=   .9800857726   DV=   [.9150390625 .. .916015625]   1.096   
+seconds
+F:   lambda=   1.005098287   DV=   [.91015625 .. .9111328125]   1.162   seconds
+F:   lambda=   1.030677196   DV=   [.9033203125 .. .904296875]   1.156   
+seconds
+F:   lambda=   1.056044299   DV=   [.8974609375 .. .8984375]   1.225   seconds
+F:   lambda=   1.079354032   DV=   [.8916015625 .. .892578125]   1.287   
+seconds
+F:   lambda=   1.106069617   DV=   [.8837890625 .. .884765625]   1.374   
+seconds
+F:   lambda=   1.129964354   DV=   [.8779296875 .. .87890625]   1.486   seconds
+F:   lambda=   1.155441127   DV=   [.8701171875 .. .87109375]   1.358   seconds
+F:   lambda=   1.179825650   DV=   [.86328125 .. .8642578125]   1.418   seconds
+F:   lambda=   1.206901530   DV=   [.85546875 .. .8564453125]   1.500   seconds
+F:   lambda=   1.230347251   DV=   [.84765625 .. .8486328125]   1.534   seconds
+F:   lambda=   1.256958355   DV=   [.83984375 .. .8408203125]   1.608   seconds
+F:   lambda=   1.281211488   DV=   [.83203125 .. .8330078125]   1.708   seconds
+F:   lambda=   1.307740603   DV=   [.8232421875 .. .82421875]   1.800   seconds
+F:   lambda=   1.330630743   DV=   [.8154296875 .. .81640625]   1.893   seconds
+F:   lambda=   1.356699941   DV=   [.806640625 .. .8076171875]   1.933   
+seconds
+F:   lambda=   1.381881498   DV=   [.7978515625 .. .798828125]   2.033   
+seconds
+F:   lambda=   1.407046606   DV=   [.7900390625 .. .791015625]   2.117   
+seconds
+F:   lambda=   1.432119135   DV=   [.78125 .. .7822265625]   2.224   seconds
+F:   lambda=   1.456205987   DV=   [.7724609375 .. .7734375]   2.307   seconds
+F:   lambda=   1.482244511   DV=   [.7626953125 .. .763671875]   2.398   
+seconds
+F:   lambda=   1.507061113   DV=   [.75390625 .. .7548828125]   2.466   seconds
+F:   lambda=   1.533179418   DV=   [.744140625 .. .7451171875]   2.205   
+seconds
+F:   lambda=   1.556822773   DV=   [.736328125 .. .7373046875]   2.303   
+seconds
+F:   lambda=   1.582953106   DV=   [.7265625 .. .7275390625]   2.411   seconds
+F:   lambda=   1.607981413   DV=   [.716796875 .. .7177734375]   2.451   
+seconds
+F:   lambda=   1.632948799   DV=   [.7080078125 .. .708984375]   2.617   
+seconds
+F:   lambda=   1.659027332   DV=   [.6982421875 .. .69921875]   2.703   seconds
+F:   lambda=   1.683046612   DV=   [.689453125 .. .6904296875]   2.850   
+seconds
+F:   lambda=   1.707645640   DV=   [.6796875 .. .6806640625]   2.860   seconds
+F:   lambda=   1.734805890   DV=   [.669921875 .. .6708984375]   2.969   
+seconds
+F:   lambda=   1.759397272   DV=   [.66015625 .. .6611328125]   3.110   seconds
+F:   lambda=   1.784546567   DV=   [.6513671875 .. .65234375]   3.156   seconds
+F:   lambda=   1.810122751   DV=   [.6416015625 .. .642578125]   3.302   
+seconds
+F:   lambda=   1.833632241   DV=   [.6328125 .. .6337890625]   3.549   seconds
+F:   lambda=   1.858692597   DV=   [.623046875 .. .6240234375]   3.351   
+seconds
+F:   lambda=   1.883562191   DV=   [.6142578125 .. .615234375]   3.521   
+seconds
+F:   lambda=   1.910164927   DV=   [.603515625 .. .6044921875]   3.626   
+seconds
+F:   lambda=   1.933640689   DV=   [.5947265625 .. .595703125]   3.758   
+seconds
+F:   lambda=   1.960726845   DV=   [.5849609375 .. .5859375]   3.894   seconds
+F:   lambda=   1.985170012   DV=   [.576171875 .. .5771484375]   3.986   
+seconds
+F:   lambda=   2.009355248   DV=   [.5673828125 .. .568359375]   4.298   
+seconds
+F:   lambda=   2.035362147   DV=   [.5576171875 .. .55859375]   4.234   seconds
+F:   lambda=   2.061474249   DV=   [.5478515625 .. .548828125]   4.500   
+seconds
+F:   lambda=   2.085232396   DV=   [.5400390625 .. .541015625]   4.656   
+seconds
+F:   lambda=   2.110462492   DV=   [.5302734375 .. .53125]   4.714   seconds
+F:   lambda=   2.135084600   DV=   [.521484375 .. .5224609375]   4.903   
+seconds
+F:   lambda=   2.161775225   DV=   [.5126953125 .. .513671875]   5.136   
+seconds
+F:   lambda=   2.184870036   DV=   [.50390625 .. .5048828125]   5.333   seconds
+F:   lambda=   2.211395267   DV=   [.4951171875 .. .49609375]   3.625   seconds
+F:   lambda=   2.236330378   DV=   [.486328125 .. .4873046875]   3.824   
+seconds
+F:   lambda=   2.261024643   DV=   [.478515625 .. .4794921875]   3.911   
+seconds
+F:   lambda=   2.285738552   DV=   [.4697265625 .. .470703125]   4.121   
+seconds
+F:   lambda=   2.310945176   DV=   [.4609375 .. .4619140625]   4.213   seconds
+F:   lambda=   2.337663774   DV=   [.4521484375 .. .453125]   4.271   seconds
+F:   lambda=   2.362162112   DV=   [.4443359375 .. .4453125]   4.370   seconds
+F:   lambda=   2.386345118   DV=   [.4365234375 .. .4375]   4.474   seconds
+F:   lambda=   2.412196353   DV=   [.4287109375 .. .4296875]   4.632   seconds
+F:   lambda=   2.437991313   DV=   [.419921875 .. .4208984375]   4.800   
+seconds
+F:   lambda=   2.461143821   DV=   [.4130859375 .. .4140625]   5.063   seconds
+F:   lambda=   2.488569636   DV=   [.404296875 .. .4052734375]   5.141   
+seconds
+F:   lambda=   2.511518286   DV=   [.3974609375 .. .3984375]   5.166   seconds
+F:   lambda=   2.538359309   DV=   [.3896484375 .. .390625]   5.434   seconds
+F:   lambda=   2.563976467   DV=   [.3818359375 .. .3828125]   5.725   seconds
+F:   lambda=   2.586849538   DV=   [.375 .. .3759765625]   5.992   seconds
+F:   lambda=   2.612572696   DV=   [.3671875 .. .3681640625]   5.392   seconds
+F:   lambda=   2.638466367   DV=   [.3603515625 .. .361328125]   5.632   
+seconds
+F:   lambda=   2.664236967   DV=   [.353515625 .. .3544921875]   5.854   
+seconds
+F:   lambda=   2.688129613   DV=   [.3466796875 .. .34765625]   6.087   seconds
+F:   lambda=   2.712869065   DV=   [.33984375 .. .3408203125]   6.168   seconds
+F:   lambda=   2.738454641   DV=   [.3330078125 .. .333984375]   6.381   
+seconds
+F:   lambda=   2.763958163   DV=   [.326171875 .. .3271484375]   6.579   
+seconds
+F:   lambda=   2.790191671   DV=   [.3193359375 .. .3203125]   6.967   seconds
+F:   lambda=   2.813298158   DV=   [.3134765625 .. .314453125]   7.178   
+seconds
+F:   lambda=   2.839310593   DV=   [.306640625 .. .3076171875]   7.148   
+seconds
+F:   lambda=   2.865429834   DV=   [.30078125 .. .3017578125]   7.441   seconds
+F:   lambda=   2.890600563   DV=   [.2939453125 .. .294921875]   7.630   
+seconds
+F:   lambda=   2.913457997   DV=   [.2890625 .. .2900390625]   7.810   seconds
+F:   lambda=   2.940637698   DV=   [.2822265625 .. .283203125]   8.189   
+seconds
+F:   lambda=   2.963662467   DV=   [.27734375 .. .2783203125]   7.859   seconds
+F:   lambda=   2.990445751   DV=   [.271484375 .. .2724609375]   8.172   
+seconds
+F:   lambda=   3.014153492   DV=   [.265625 .. .2666015625]   8.727   seconds
+F:   lambda=   3.040164646   DV=   [.2607421875 .. .26171875]   8.839   seconds
+F:   lambda=   3.064933412   DV=   [.2548828125 .. .255859375]   9.255   
+seconds
+F:   lambda=   3.090777023   DV=   [.25 .. .2509765625]   9.510   seconds
+F:   lambda=   3.114509525   DV=   [.244140625 .. .2451171875]   7.338   
+seconds
+F:   lambda=   3.140108234   DV=   [.2392578125 .. .240234375]   7.496   
+seconds
+F:   lambda=   3.166698098   DV=   [.234375 .. .2353515625]   7.761   seconds
+F:   lambda=   3.189844653   DV=   [.2294921875 .. .23046875]   7.996   seconds
+F:   lambda=   3.214843568   DV=   [.224609375 .. .2255859375]   8.172   
+seconds
+F:   lambda=   3.240669892   DV=   [.2197265625 .. .220703125]   8.607   
+seconds
+F:   lambda=   3.265935912   DV=   [.21484375 .. .2158203125]   8.673   seconds
+F:   lambda=   3.290382085   DV=   [.2109375 .. .2119140625]   9.073   seconds
+F:   lambda=   3.317525392   DV=   [.2060546875 .. .20703125]   9.266   seconds
+F:   lambda=   3.341914859   DV=   [.2021484375 .. .203125]   9.457   seconds
+F:   lambda=   3.367955824   DV=   [.197265625 .. .1982421875]   9.955   
+seconds
+F:   lambda=   3.391552809   DV=   [.193359375 .. .1943359375]   10.424   
+seconds
+F:   lambda=   3.417350543   DV=   [.189453125 .. .1904296875]   10.973   
+seconds
+F:   lambda=   3.441624203   DV=   [.185546875 .. .1865234375]   10.307   
+seconds
+F:   lambda=   3.466997171   DV=   [.181640625 .. .1826171875]   10.870   
+seconds
+F:   lambda=   3.491803884   DV=   [.177734375 .. .1787109375]   11.260   
+seconds
+F:   lambda=   3.517774216   DV=   [.173828125 .. .1748046875]   11.532   
+seconds
+F:   lambda=   3.542786729   DV=   [.169921875 .. .1708984375]   12.178   
+seconds
+F:   lambda=   3.568365638   DV=   [.166015625 .. .1669921875]   12.467   
+seconds
+F:   lambda=   3.593732741   DV=   [.162109375 .. .1630859375]   12.571   
+seconds
+F:   lambda=   3.617042475   DV=   [.1591796875 .. .16015625]   13.157   
+seconds
+F:   lambda=   3.643758058   DV=   [.1552734375 .. .15625]   13.153   seconds
+F:   lambda=   3.667652796   DV=   [.15234375 .. .1533203125]   13.600   
+seconds
+F:   lambda=   3.693129570   DV=   [.1494140625 .. .150390625]   14.159   
+seconds
+F:   lambda=   3.717514093   DV=   [.146484375 .. .1474609375]   14.764   
+seconds
+F:   lambda=   3.744589972   DV=   [.142578125 .. .1435546875]   15.432   
+seconds
+F:   lambda=   3.768035693   DV=   [.1396484375 .. .140625]   15.863   seconds
+F:   lambda=   3.794646799   DV=   [.13671875 .. .1376953125]   16.439   
+seconds
+F:   lambda=   3.818899930   DV=   [.1337890625 .. .134765625]   17.477   
+seconds
+F:   lambda=   3.845429045   DV=   [.130859375 .. .1318359375]   17.993   
+seconds
+F:   lambda=   3.868319186   DV=   [.1279296875 .. .12890625]   18.421   
+seconds
+F:   lambda=   3.894388382   DV=   [.125 .. .1259765625]   19.544   seconds
+F:   lambda=   3.919569940   DV=   [.1220703125 .. .123046875]   17.370   
+seconds
+F:   lambda=   3.944735048   DV=   [.1201171875 .. .12109375]   18.354   
+seconds
+F:   lambda=   3.969807578   DV=   [.1171875 .. .1181640625]   19.033   seconds
+F:   lambda=   3.993894430   DV=   [.115234375 .. .1162109375]   19.708   
+seconds
+F:   lambda=   4.019932952   DV=   [.1123046875 .. .11328125]   20.744   
+seconds
+F:   lambda=   4.044749555   DV=   [.109375 .. .1103515625]   21.859   seconds
+F:   lambda=   4.070867859   DV=   [.107421875 .. .1083984375]   22.787   
+seconds
+F:   lambda=   4.094511216   DV=   [.10546875 .. .1064453125]   22.929   
+seconds
+F:   lambda=   4.120641548   DV=   [.1025390625 .. .103515625]   23.844   
+seconds
+F:   lambda=   4.145669854   DV=   [.1005859375 .. .1015625]   25.147   seconds
+F:   lambda=   4.170637241   DV=   [.0986328125 .. .099609375]   26.026   
+seconds
+F:   lambda=   4.196715774   DV=   [.095703125 .. .0966796875]   27.035   
+seconds
+F:   lambda=   4.220735055   DV=   [.09375 .. .0947265625]   27.634   seconds
+F:   lambda=   4.245334083   DV=   [.091796875 .. .0927734375]   28.304   
+seconds
+F:   lambda=   4.272494332   DV=   [.08984375 .. .0908203125]   30.434   
+seconds
+F:   lambda=   4.297085713   DV=   [.087890625 .. .0888671875]   30.713   
+seconds
+F:   lambda=   4.322235010   DV=   [.0859375 .. .0869140625]   32.237   seconds
+F:   lambda=   4.347811193   DV=   [.083984375 .. .0849609375]   33.847   
+seconds
+F:   lambda=   4.371320683   DV=   [.08203125 .. .0830078125]   34.257   
+seconds
+F:   lambda=   4.396381040   DV=   [.0810546875 .. .08203125]   36.455   
+seconds
+F:   lambda=   4.421250633   DV=   [.0791015625 .. .080078125]   38.471   
+seconds
+F:   lambda=   4.447853369   DV=   [.0771484375 .. .078125]   39.789   seconds
+F:   lambda=   4.471329131   DV=   [.0751953125 .. .076171875]   40.935   
+seconds
+F:   lambda=   4.498415286   DV=   [.07421875 .. .0751953125]   44.691   
+seconds
+F:   lambda=   4.522858455   DV=   [.072265625 .. .0732421875]   47.401   
+seconds
+F:   lambda=   4.547043691   DV=   [.0703125 .. .0712890625]   48.556   seconds
+F:   lambda=   4.573050590   DV=   [.0693359375 .. .0703125]   51.159   seconds
+F:   lambda=   4.599162691   DV=   [.0673828125 .. .068359375]   53.625   
+seconds
+F:   lambda=   4.622920839   DV=   [.06640625 .. .0673828125]   56.832   
+seconds
+F:   lambda=   4.648150935   DV=   [.064453125 .. .0654296875]   58.034   
+seconds
+F:   lambda=   4.672773043   DV=   [.0634765625 .. .064453125]   61.658   
+seconds
+F:   lambda=   4.699463668   DV=   [.0615234375 .. .0625]   62.408   seconds
+F:   lambda=   4.722558477   DV=   [.060546875 .. .0615234375]   65.052   
+seconds
+F:   lambda=   4.749083708   DV=   [.0595703125 .. .060546875]   67.765   
+seconds
+F:   lambda=   4.774018819   DV=   [.0576171875 .. .05859375]   71.669   
+seconds
+F:   lambda=   4.798713085   DV=   [.056640625 .. .0576171875]   74.301   
+seconds
+F:   lambda=   4.823426995   DV=   [.0556640625 .. .056640625]   74.675   
+seconds
+F:   lambda=   4.848633618   DV=   [.0546875 .. .0556640625]   79.831   seconds
+F:   lambda=   4.875352216   DV=   [.052734375 .. .0537109375]   82.614   
+seconds
+F:   lambda=   4.899850555   DV=   [.0517578125 .. .052734375]   109.726   
+seconds
+F:   lambda=   4.924033560   DV=   [.05078125 .. .0517578125]   114.792   
+seconds
+F:   lambda=   4.949884796   DV=   [.0498046875 .. .05078125]   120.677   
+seconds
+F:   lambda=   4.975679754   DV=   [.048828125 .. .0498046875]   129.353   
+seconds
+F:   lambda=   5.0   DV=   [.0478515625 .. .048828125]   132.774   seconds
+
+real	50m8.246s
+user	49m54.805s
+sys	0m0.540s
