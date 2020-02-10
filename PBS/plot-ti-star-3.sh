@@ -3,7 +3,6 @@
 #PBS -l select=1:ncpus=36:mem=16GB
 #PBS -l walltime=300:00:00           
 #PBS -k oe
-#PBS -J 1-6
 
 # Load Modules
 source /etc/profile.d/modules.sh
